@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T22:16:21.399Z",
+  "updatedAt": "2026-09-13T23:30:37.669Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
@@ -151,62 +151,62 @@
         },
         {
           "id": "xRLFQdnVMQNGTfg8dzOf",
-          "name": "M1 (Alejandra C.) Extraer los datos clave de las notificaciones y generar a partir de ellos un primer borrador del correo al cliente",
-          "description": "Extraer los datos clave de las notificaciones y generar a partir de ellos un primer borrador del correo al cliente",
+          "name": "M1 (Alejandra C.) Extracción automática de datos de notificaciones y borrador de correo al cliente",
+          "description": "Cada notificación que llega de una oficina de marcas o de un corresponsal contiene los mismos datos clave: marca, número, país, clases, tipo de resolución, plazo y actuación a realizar. Alejandra dedica bastante tiempo a localizar estos datos manualmente y, después, a redactar un correo para informar al cliente siguiendo una estructura que se repite en la mayoría de los casos. Con IA se puede extraer esa información directamente del documento y generar sobre ella un primer borrador de correo, dejando a Alejandra solo la revisión final y el ajuste al caso concreto.",
           "priority": ""
         },
         {
           "id": "w7H6trRx1jEiJbodqW84",
-          "name": "M10 (María Paula S.) Revisar documentos para detectar errores, inconsistencias o datos faltantes",
-          "description": "Revisar documentos para detectar errores, inconsistencias o datos faltantes",
+          "name": "M10 (María Paula S.) Revisión de documentos para detectar errores e inconsistencias",
+          "description": "En su trabajo de preparación de informes de viabilidad y documentación de procedimientos, María Paula podría delegar en IA la revisión de documentos para detectar errores, datos que faltan, referencias incorrectas o diferencias entre versiones. Esto le permitiría dedicar el tiempo de revisión final a los aspectos de fondo, en lugar de a comprobaciones más mecánicas.",
           "priority": ""
         },
         {
           "id": "WhTpIoqRAxuMkGI3dX8m",
-          "name": "M6 (María José G.) Resumir boletines para detectar vencimientos y generar el aviso y su recordatorio",
-          "description": "Resumir boletines para detectar vencimientos y generar el aviso y su recordatorio",
+          "name": "M6 (María José G.) Resumen de boletines y generación del aviso de vencimiento",
+          "description": "María José revisa a diario los boletines de la Propiedad Industrial y los boletines de parecidos para detectar vencimientos, y a partir de ahí redacta los avisos correspondientes y sus recordatorios. Con IA se puede resumir el boletín para señalar directamente los vencimientos relevantes y generar el texto del aviso a partir de esa información, reduciendo el tiempo que hoy dedica a esta tarea diaria.",
           "priority": ""
         },
         {
           "id": "OGE3Ql0yFVgNEprEvN5l",
-          "name": "M9 (Gemma G.) Generar recordatorios de plazos y tareas pendientes",
-          "description": "Generar recordatorios de plazos y tareas pendientes",
+          "name": "M9 (Gemma G.) Recordatorios automáticos de plazos y pendientes",
+          "description": "Gemma pide, como mejora prioritaria, recordatorios automáticos de los plazos y de lo que queda pendiente en cada expediente. Hoy este seguimiento depende de que ella misma recuerde revisarlo, y un sistema que avise cuando se acerca una fecha o una tarea sin resolver evitaría descuidos y aliviaría la carga mental de llevar varios asuntos a la vez.",
           "priority": "Prioridad Alta"
         },
         {
           "id": "3YP3LYXil1mcBlAmrjeP",
-          "name": "M2 (Alejandra C.) Generar un resumen cronológico del expediente a partir de correos y documentos dispersos",
-          "description": "Generar un resumen cronológico del expediente a partir de correos y documentos dispersos",
+          "name": "M2 (Alejandra C.) Resumen cronológico automático del expediente",
+          "description": "Cuando necesita reconstruir la situación de un expediente, Alejandra tiene que revisar cadenas de correos, documentos anteriores y las bases de datos de las oficinas para saber qué se decidió, qué se hizo y qué queda pendiente. Un resumen generado por IA a partir de esa documentación dispersa le daría de un vistazo el histórico de actuaciones, las decisiones tomadas y los asuntos abiertos, ahorrando el tiempo de reconstrucción manual cada vez que retoma un caso.",
           "priority": ""
         },
         {
           "id": "q3KijSJga6trfFlUWlqC",
-          "name": "M8 (Gemma G.) Clasificar y archivar correos con apoyo de IA",
-          "description": "Clasificar y archivar correos con apoyo de IA",
+          "name": "M8 (Gemma G.) Clasificación y archivo de correos con apoyo de IA",
+          "description": "Clasificar y guardar los correos que recibe es una de las tareas que más tiempo le consume a Gemma en su día a día. La IA puede ayudar a identificar el tipo de correo y sugerir dónde archivarlo, o incluso hacerlo directamente, liberando tiempo que hoy dedica a esta gestión manual.",
           "priority": "Prioridad Alta"
         },
         {
           "id": "PviEOa7mMTegtNVdW3m4",
-          "name": "M7 (Gemma G.) Calcular y redactar presupuestos a clientes con ayuda de IA",
-          "description": "Calcular y redactar presupuestos a clientes con ayuda de IA",
+          "name": "M7 (Gemma G.) Cálculo y redacción de presupuestos con IA",
+          "description": "Gemma dedica parte de su tiempo a dar costes a los clientes, un proceso que hoy hace de forma manual consultando distintas fuentes de tarifas. Usar IA para calcular y redactar el presupuesto a partir de esa información le permitiría entregar la respuesta al cliente más rápido, revisando únicamente el resultado final antes de enviarlo.",
           "priority": ""
         },
         {
           "id": "Ow8tYbmoXEy0W4GGAGDr",
-          "name": "M5 (Alejandra C.) Avisar automáticamente cuando se lleva tiempo pendiente de instrucciones o se acerca un plazo",
-          "description": "Avisar automáticamente cuando se lleva tiempo pendiente de instrucciones o se acerca un plazo",
+          "name": "M5 (Alejandra C.) Avisos automáticos de plazos e instrucciones pendientes",
+          "description": "Alejandra necesita estar pendiente de si lleva tiempo esperando instrucciones del cliente, una respuesta del corresponsal, o si se acerca un plazo sin que se haya realizado la actuación correspondiente. Un aviso generado por IA cuando se cumplen estas condiciones evitaría que algún dato o actuación se le escape, y permitiría que cualquier compañero que intervenga en el asunto entienda rápido en qué situación se encuentra.",
           "priority": ""
         },
         {
           "id": "Z8fdb6qZ44DBmp1GqH3b",
-          "name": "M4 (Alejandra C.) Calcular presupuestos de registro de marca cruzando honorarios, tasas y corresponsal",
-          "description": "Calcular presupuestos de registro de marca cruzando honorarios, tasas y corresponsal",
+          "name": "M4 (Alejandra C.) Cálculo automático de presupuestos de registro de marca",
+          "description": "Preparar un presupuesto de registro implica cruzar tres datos por país: los honorarios del corresponsal, las tasas oficiales y los honorarios propios del despacho. Alejandra propone que, indicando el país, un sistema con IA pueda ofrecer automáticamente estos tres importes y el total a comunicar al cliente, evitando la búsqueda manual de cada componente cada vez que se solicita un presupuesto.",
           "priority": ""
         },
         {
           "id": "I3KeJnYGNa2YVl810R3B",
-          "name": "M3 (Alejandra C.) Preparar la tabla inicial de los informes de vigilancia de marcas",
-          "description": "Preparar la tabla inicial de los informes de vigilancia de marcas",
+          "name": "M3 (Alejandra C.) Tabla inicial de los informes de vigilancia de marcas",
+          "description": "En los reportes de vigilancia, Alejandra prepara a mano una tabla con las solicitudes detectadas, sus datos, las clases correspondientes, la traducción de productos o servicios y el derecho propio que serviría de base para una posible oposición. Esta primera tabla se puede generar con IA a partir de los datos brutos de la vigilancia, quedando para ella únicamente la valoración del riesgo y la decisión sobre la estrategia a seguir.",
           "priority": ""
         }
       ]
