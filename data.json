@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T21:55:56.252Z",
+  "updatedAt": "2026-09-13T22:16:21.399Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
@@ -7,205 +7,205 @@
       "opportunities": [
         {
           "id": "wmbnYFizDvaxrxZeLAjx",
-          "name": "M33 - Apoyo en redacción de escritos e informes con IA (ya lo hace)",
+          "name": "M33 (Aitor P.) Apoyo en redacción de escritos e informes con IA (ya lo hace)",
           "description": "Apoyo en redacción de escritos e informes con IA (ya lo hace)",
           "priority": ""
         },
         {
           "id": "AXOaN1ZXnOaVdY8RP1fP",
-          "name": "M32 - Pulir y traducir textos al inglés con IA (ya lo hace)",
+          "name": "M32 (Aitor P.) Pulir y traducir textos al inglés con IA (ya lo hace)",
           "description": "Pulir y traducir textos al inglés con IA (ya lo hace)",
           "priority": ""
         },
         {
           "id": "urM7Pk9Qd8wOwEYcGtOB",
-          "name": "M31 - Resumir correos y documentos para recordar el estado de un asunto",
+          "name": "M31 (Mario P.) Resumir correos y documentos para recordar el estado de un asunto",
           "description": "Resumir correos y documentos para recordar el estado de un asunto",
           "priority": ""
         },
         {
           "id": "JNZbBSHCOnPV2HWjbEih",
-          "name": "M34 - Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
+          "name": "M34 (Aitor P.) Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
           "description": "Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
           "priority": ""
         },
         {
           "id": "gLNvD75ywAcEKOCangyb",
-          "name": "M29 - Generar informes internos o para clientes sobre acciones realizadas y pendientes",
+          "name": "M29 (Mario P.) Generar informes internos o para clientes sobre acciones realizadas y pendientes",
           "description": "Generar informes internos o para clientes sobre acciones realizadas y pendientes",
           "priority": ""
         },
         {
           "id": "ZdbMYgt8sz9K7ch4dn4u",
-          "name": "M25 - Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
+          "name": "M25 (Mariam M.) Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
           "description": "Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
           "priority": ""
         },
         {
           "id": "M7aJPNRBoXbrLYahGs6c",
-          "name": "M27 - Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
+          "name": "M27 (Lydia G.) Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
           "description": "Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
           "priority": ""
         },
         {
           "id": "dKctE2M1Gwe600OWRb6A",
-          "name": "M23 - Redactar correos con IA (corresponsales, clientes)",
+          "name": "M23 (Mariam M.) Redactar correos con IA (corresponsales, clientes)",
           "description": "Redactar correos con IA (corresponsales, clientes)",
           "priority": ""
         },
         {
           "id": "nhvryfDS7gvgmGxOEJzJ",
-          "name": "M24 - Localizar casos anteriores similares al que se está trabajando",
+          "name": "M24 (Mariam M.) Localizar casos anteriores similares al que se está trabajando",
           "description": "Localizar casos anteriores similares al que se está trabajando",
           "priority": ""
         },
         {
           "id": "Fh2M7k7RC1FRDv8Vmax1",
-          "name": "M28 - Generar borradores de presupuestos con IA a partir de documentos previos",
+          "name": "M28 (Mario P.) Generar borradores de presupuestos con IA a partir de documentos previos",
           "description": "Generar borradores de presupuestos con IA a partir de documentos previos",
           "priority": ""
         },
         {
           "id": "oxobkzrGckqUBQ6OUkCD",
-          "name": "M30 - Apoyo en la elaboración de escritos jurídicos",
+          "name": "M30 (Mario P.) Apoyo en la elaboración de escritos jurídicos",
           "description": "Apoyo en la elaboración de escritos jurídicos",
           "priority": ""
         },
         {
           "id": "eo9G20PQD2hgNz85epg5",
-          "name": "M26 - Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
+          "name": "M26 (Lydia G.) Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
           "description": "Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
           "priority": ""
         },
         {
           "id": "5K3S112rzRUpPdtvKnpz",
-          "name": "M21 - Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
+          "name": "M21 (Tomás B.) Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
           "description": "Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
           "priority": ""
         },
         {
           "id": "o05CKzDiYqMwAssbm4cL",
-          "name": "M22 - Generar escritos jurídicos a partir de una plantilla dinámica",
+          "name": "M22 (Camilo S.) Generar escritos jurídicos a partir de una plantilla dinámica",
           "description": "Generar escritos jurídicos a partir de una plantilla dinámica",
           "priority": ""
         },
         {
           "id": "gpxPPDcRZQOLiRTYSBX8",
-          "name": "M11 - Traducir y adaptar lingüísticamente documentación y comunicaciones",
+          "name": "M11 (María Paula S.) Traducir y adaptar lingüísticamente documentación y comunicaciones",
           "description": "Traducir y adaptar lingüísticamente documentación y comunicaciones",
           "priority": ""
         },
         {
           "id": "BaSHXtIm88G4P3U9VGi7",
-          "name": "M16 - Generar el esqueleto básico de requerimientos",
+          "name": "M16 (Manuel T.) Generar el esqueleto básico de requerimientos",
           "description": "Generar el esqueleto básico de requerimientos",
           "priority": ""
         },
         {
           "id": "QtBb6I9CpZyA5VhkHxlg",
-          "name": "M15 - Usar la IA como primer filtro en la búsqueda de jurisprudencia",
+          "name": "M15 (Manuel T.) Usar la IA como primer filtro en la búsqueda de jurisprudencia",
           "description": "Usar la IA como primer filtro en la búsqueda de jurisprudencia",
           "priority": ""
         },
         {
           "id": "XTXKwfm4Ui4ZROHZ9Iym",
-          "name": "M20 - Renombrar y archivar automáticamente los documentos recibidos por email",
+          "name": "M20 (Tomás B.) Renombrar y archivar automáticamente los documentos recibidos por email",
           "description": "Renombrar y archivar automáticamente los documentos recibidos por email",
           "priority": ""
         },
         {
           "id": "5mskATX1zaMs36cmUEmE",
-          "name": "M19 - Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
+          "name": "M19 (Tomás B.) Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
           "description": "Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
           "priority": ""
         },
         {
           "id": "UEvVMMtADTiQBOQ9P634",
-          "name": "M17 - Generar recordatorios de seguimiento de temas pendientes y facturas",
+          "name": "M17 (Manuel T.) Generar recordatorios de seguimiento de temas pendientes y facturas",
           "description": "Generar recordatorios de seguimiento de temas pendientes y facturas",
           "priority": ""
         },
         {
           "id": "toFbt4XOJoG4sOwULHXq",
-          "name": "M13 - Generar primeros borradores de cláusulas contractuales habituales",
+          "name": "M13 (Manuel T.) Generar primeros borradores de cláusulas contractuales habituales",
           "description": "Generar primeros borradores de cláusulas contractuales habituales",
           "priority": ""
         },
         {
           "id": "6u9eHVvgkCaFnn3cPJzN",
-          "name": "M12 - Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
+          "name": "M12 (María Paula S.) Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
           "description": "Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
           "priority": ""
         },
         {
           "id": "1iPaAv7iauevbgcjLdDu",
-          "name": "M14 - Generar primeros borradores de fundamentos de derecho en escritos judiciales",
+          "name": "M14 (Manuel T.) Generar primeros borradores de fundamentos de derecho en escritos judiciales",
           "description": "Generar primeros borradores de fundamentos de derecho en escritos judiciales",
           "priority": ""
         },
         {
           "id": "TJj0hTvO0lCsXOGi0YvQ",
-          "name": "M18 - Responder correos de estructura repetitiva con ayuda de IA",
+          "name": "M18 (Tomás B.) Responder correos de estructura repetitiva con ayuda de IA",
           "description": "Responder correos de estructura repetitiva con ayuda de IA",
           "priority": ""
         },
         {
           "id": "xRLFQdnVMQNGTfg8dzOf",
-          "name": "M1 - Extraer los datos clave de las notificaciones y generar a partir de ellos un primer borrador del correo al cliente",
+          "name": "M1 (Alejandra C.) Extraer los datos clave de las notificaciones y generar a partir de ellos un primer borrador del correo al cliente",
           "description": "Extraer los datos clave de las notificaciones y generar a partir de ellos un primer borrador del correo al cliente",
           "priority": ""
         },
         {
           "id": "w7H6trRx1jEiJbodqW84",
-          "name": "M10 - Revisar documentos para detectar errores, inconsistencias o datos faltantes",
+          "name": "M10 (María Paula S.) Revisar documentos para detectar errores, inconsistencias o datos faltantes",
           "description": "Revisar documentos para detectar errores, inconsistencias o datos faltantes",
           "priority": ""
         },
         {
           "id": "WhTpIoqRAxuMkGI3dX8m",
-          "name": "M6 - Resumir boletines para detectar vencimientos y generar el aviso y su recordatorio",
+          "name": "M6 (María José G.) Resumir boletines para detectar vencimientos y generar el aviso y su recordatorio",
           "description": "Resumir boletines para detectar vencimientos y generar el aviso y su recordatorio",
           "priority": ""
         },
         {
           "id": "OGE3Ql0yFVgNEprEvN5l",
-          "name": "M9 - Generar recordatorios de plazos y tareas pendientes",
+          "name": "M9 (Gemma G.) Generar recordatorios de plazos y tareas pendientes",
           "description": "Generar recordatorios de plazos y tareas pendientes",
-          "priority": ""
+          "priority": "Prioridad Alta"
         },
         {
           "id": "3YP3LYXil1mcBlAmrjeP",
-          "name": "M2 - Generar un resumen cronológico del expediente a partir de correos y documentos dispersos",
+          "name": "M2 (Alejandra C.) Generar un resumen cronológico del expediente a partir de correos y documentos dispersos",
           "description": "Generar un resumen cronológico del expediente a partir de correos y documentos dispersos",
           "priority": ""
         },
         {
           "id": "q3KijSJga6trfFlUWlqC",
-          "name": "M8 - Clasificar y archivar correos con apoyo de IA",
+          "name": "M8 (Gemma G.) Clasificar y archivar correos con apoyo de IA",
           "description": "Clasificar y archivar correos con apoyo de IA",
-          "priority": ""
+          "priority": "Prioridad Alta"
         },
         {
           "id": "PviEOa7mMTegtNVdW3m4",
-          "name": "M7 - Calcular y redactar presupuestos a clientes con ayuda de IA",
+          "name": "M7 (Gemma G.) Calcular y redactar presupuestos a clientes con ayuda de IA",
           "description": "Calcular y redactar presupuestos a clientes con ayuda de IA",
           "priority": ""
         },
         {
           "id": "Ow8tYbmoXEy0W4GGAGDr",
-          "name": "M5 - Avisar automáticamente cuando se lleva tiempo pendiente de instrucciones o se acerca un plazo",
+          "name": "M5 (Alejandra C.) Avisar automáticamente cuando se lleva tiempo pendiente de instrucciones o se acerca un plazo",
           "description": "Avisar automáticamente cuando se lleva tiempo pendiente de instrucciones o se acerca un plazo",
           "priority": ""
         },
         {
           "id": "Z8fdb6qZ44DBmp1GqH3b",
-          "name": "M4 - Calcular presupuestos de registro de marca cruzando honorarios, tasas y corresponsal",
+          "name": "M4 (Alejandra C.) Calcular presupuestos de registro de marca cruzando honorarios, tasas y corresponsal",
           "description": "Calcular presupuestos de registro de marca cruzando honorarios, tasas y corresponsal",
           "priority": ""
         },
         {
           "id": "I3KeJnYGNa2YVl810R3B",
-          "name": "M3 - Preparar la tabla inicial de los informes de vigilancia de marcas",
+          "name": "M3 (Alejandra C.) Preparar la tabla inicial de los informes de vigilancia de marcas",
           "description": "Preparar la tabla inicial de los informes de vigilancia de marcas",
           "priority": ""
         }
