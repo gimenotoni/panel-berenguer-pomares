@@ -1,0 +1,10 @@
+{
+  "updatedAt": null,
+  "pipeline": "Berenguer y Pomares - Mejoras detectadas",
+  "columns": [
+    { "label": "Mejora Detectada", "opportunities": [] },
+    { "label": "En marcha", "opportunities": [] },
+    { "label": "Terminada", "opportunities": [] },
+    { "label": "Stand By / Descartada", "opportunities": [] }
+  ]
+}

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Berenguer y Pomares - IA AL DÍA · Panel de mejoras detectadas</title>
+<style>
+:root {
+--bg: #f5fbfd;
+--panel-bg: #ffffff;
+--column-bg: rgba(255, 255, 255, 0.66);
+--text: #172b4d;
+--text-muted: #5e6c84;
+--border: rgba(58, 123, 213, 0.16);
+--card-shadow: 0 5px 12px rgba(58, 123, 213, 0.12), 0 1px 2px rgba(23, 43, 77, 0.08);
+--accent-1: #4AB8E8;
+--accent-2: #00C8AA;
+--accent-3: #3A7BD5;
+--accent-4: #3A7BD5;
+--brand-1: #3A7BD5;
+--brand-2: #00C8AA;
+--danger: #de350b;
+--danger-bg: #ffebe6;
+--pill-bg: #eef0f4;
+--pill-active-bg: #172b4d;
+--pill-active-text: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+--bg: #0d1117;
+--panel-bg: #161b22;
+--column-bg: #1c2128;
+--text: #e6edf3;
+--text-muted: #8b949e;
+--border: #30363d;
+--card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+--danger: #ff9d8a;
+--danger-bg: #3d1f1c;
+--pill-bg: #21262d;
+--pill-active-bg: #e6edf3;
+--pill-active-text: #0d1117;
+}
+}
+* { box-sizing: border-box; }
+body {
+margin: 0;
+background: var(--bg);
+color: var(--text);
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+position: relative;
+min-height: 100vh;
+overflow-x: hidden;
+font-size: 14px;
+}
+body::before,
+body::after {
+content: "";
+position: fixed;
+z-index: -1;
+pointer-events: none;
+width: 75vw;
+height: 45vh;
+border-radius: 50%;
+filter: blur(2px);
+opacity: 0.12;
+}
+body::before {
+top: 10vh;
+left: -18vw;
+background: #00C8AA;
+transform: rotate(18deg) skewX(-18deg);
+}
+body::after {
+right: -18vw;
+bottom: 8vh;
+background: #4AB8E8;
+transform: rotate(-18deg) skewX(18deg);
+}
+.topbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 14px 22px;
+gap: 12px;
+flex-wrap: nowrap;
+border-bottom: 1px solid rgba(58, 123, 213, 0.1);
+background: rgba(255, 255, 255, 0.42);
+width: 100%;
+min-width: 0;
+overflow: hidden;
+}
+.brand {
+display: flex;
+align-items: center;
+gap: 0;
+min-width: 470px;
+flex: 0 0 470px;
+}
+.client-logo {
+width: 285px;
+height: 120px;
+display: block;
+flex-shrink: 0;
+object-fit: contain;
+object-position: left center;
+}
+.brand-text h1 {
+margin: 0;
+font-size: 17px;
+font-weight: 800;
+letter-spacing: 0.2px;
+line-height: 1.2;
+white-space: nowrap;
+}
+.brand-text {
+margin-left: 0;
+transform: none;
+}
+.brand-text p {
+margin: 2px 0 0;
+font-size: 12.5px;
+color: var(--text-muted);
+white-space: nowrap;
+}
+.header-right {
+display: flex;
+align-items: center;
+gap: 8px;
+flex: 1 1 auto;
+justify-content: flex-end;
+min-width: 0;
+overflow: hidden;
+}
+.metric {
+display: flex;
+align-items: center;
+gap: 10px;
+min-height: 48px;
+padding: 6px 10px;
+border: 1px solid rgba(58, 123, 213, 0.08);
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.68);
+min-width: 0;
+flex: 1 1 0;
+}
+.metric-icon {
+width: 32px;
+height: 32px;
+display: grid;
+place-items: center;
+border-radius: 10px;
+background: #eaf7fd;
+color: var(--accent-3);
+font-size: 17px;
+font-weight: 800;
+}
+.metric strong {
+display: block;
+font-size: 14px;
+line-height: 1.05;
+}
+.metric small {
+display: block;
+margin-top: 3px;
+color: var(--text-muted);
+font-size: 9px;
+}
+.metric.live {
+background: rgba(0, 200, 170, 0.09);
+}
+.metric.live .metric-icon {
+background: rgba(0, 200, 170, 0.14);
+color: #009c86;
+}
+.stats-text {
+text-align: right;
+}
+.stats-text .count {
+font-size: 19px;
+font-weight: 800;
+letter-spacing: 0.2px;
+}
+.stats-text .updated {
+margin-top: 1px;
+font-size: 12px;
+color: var(--text-muted);
+}
+.live-badge {
+display: flex;
+align-items: center;
+gap: 6px;
+background: rgba(54, 179, 126, 0.14);
+color: #1a7f5a;
+padding: 7px 14px;
+border-radius: 999px;
+font-size: 12.5px;
+font-weight: 700;
+white-space: nowrap;
+}
+@media (prefers-color-scheme: dark) {
+.live-badge { color: #4ade80; }
+}
+.live-dot {
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background: #36b37e;
+box-shadow: 0 0 0 0 rgba(54, 179, 126, 0.6);
+animation: pulse 1.8s infinite;
+flex-shrink: 0;
+}
+@keyframes pulse {
+0% { box-shadow: 0 0 0 0 rgba(54, 179, 126, 0.6); }
+70% { box-shadow: 0 0 0 6px rgba(54, 179, 126, 0); }
+100% { box-shadow: 0 0 0 0 rgba(54, 179, 126, 0); }
+}
+.refresh-btn {
+width: 38px;
+height: 38px;
+border-radius: 50%;
+border: none;
+background: #0f172a;
+color: #fff;
+font-size: 17px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+}
+.refresh-btn:hover { opacity: 0.85; }
+.refresh-btn.spinning .refresh-icon { display: inline-block; animation: spin 0.7s linear; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+.controls {
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 12px 22px 14px;
+flex-wrap: nowrap;
+}
+.search-wrap {
+position: relative;
+flex: 1 1 260px;
+min-width: 180px;
+max-width: 420px;
+}
+.search-icon {
+position: absolute;
+left: 12px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 13px;
+opacity: 0.6;
+pointer-events: none;
+}
+#searchInput {
+width: 100%;
+padding: 10px 12px 10px 34px;
+border-radius: 8px;
+border: 1px solid var(--border);
+background: var(--panel-bg);
+color: var(--text);
+font-size: 13px;
+}
+#searchInput:focus {
+outline: none;
+border-color: var(--brand-1);
+}
+.filters {
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+}
+.pill {
+border: 1px solid var(--border);
+background: var(--pill-bg);
+color: var(--text);
+border-radius: 999px;
+padding: 8px 16px;
+font-size: 12.5px;
+font-weight: 600;
+cursor: pointer;
+white-space: nowrap;
+}
+.pill.active {
+background: var(--pill-active-bg);
+color: var(--pill-active-text);
+border-color: var(--pill-active-bg);
+}
+.visible-count {
+margin-left: 0;
+font-size: 12.5px;
+color: var(--text-muted);
+white-space: nowrap;
+}
+.visible-count span { font-weight: 700; color: var(--text); }
+.view-toggle {
+display: flex;
+margin-left: 0;
+border: 1px solid var(--border);
+border-radius: 9px;
+overflow: hidden;
+background: rgba(255, 255, 255, 0.7);
+}
+.view-toggle button {
+width: 34px;
+height: 32px;
+border: 0;
+background: transparent;
+color: var(--text-muted);
+font-size: 15px;
+}
+.view-toggle button.active { background: #e7f5fb; color: var(--accent-3); }
+
+#board {
+display: flex;
+gap: 10px;
+padding: 0 12px 16px;
+overflow-x: auto;
+align-items: flex-start;
+width: 100%;
+min-width: 0;
+}
+.column {
+background: var(--column-bg);
+border-radius: 12px;
+min-width: 0;
+max-width: none;
+flex: 0 0 calc((100% - 30px) / 4);
+display: flex;
+flex-direction: column;
+max-height: calc(100vh - 170px);
+overflow: hidden;
+}
+.column-header {
+padding: 12px 14px 9px;
+font-weight: 700;
+font-size: 12.5px;
+text-transform: uppercase;
+letter-spacing: 0.4px;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.column-header .dot {
+width: 12px;
+height: 12px;
+border-radius: 50%;
+flex-shrink: 0;
+}
+.column[data-col="0"] .dot { background: var(--accent-1); }
+.column[data-col="1"] .dot { background: var(--accent-2); }
+.column[data-col="2"] .dot { background: var(--accent-3); }
+.column[data-col="3"] .dot { background: var(--accent-4); }
+.column-count {
+margin-left: auto;
+font-weight: 700;
+color: var(--text-muted);
+font-size: 11px;
+background: var(--panel-bg);
+border: 1px solid var(--border);
+border-radius: 50%;
+width: 22px;
+height: 22px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+text-transform: none;
+letter-spacing: normal;
+}
+.cards {
+padding: 0 8px 8px;
+overflow-y: auto;
+}
+.card {
+background: var(--panel-bg);
+border-radius: 10px;
+padding: 9px 10px 8px;
+margin-bottom: 7px;
+border: 1px solid var(--border);
+border-left: 3px solid var(--border);
+box-shadow: var(--card-shadow);
+}
+.column[data-col="0"] .card { border-left-color: var(--accent-1); }
+.column[data-col="1"] .card { border-left-color: var(--accent-2); }
+.column[data-col="2"] .card { border-left-color: var(--accent-3); }
+.column[data-col="3"] .card { border-left-color: var(--accent-4); }
+.card-top {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+gap: 8px;
+margin-bottom: 4px;
+}
+.card-title {
+font-size: 13px;
+font-weight: 600;
+margin: 0;
+line-height: 1.2;
+overflow-wrap: anywhere;
+}
+.badge-alta {
+flex-shrink: 0;
+background: var(--danger-bg);
+color: var(--danger);
+font-size: 10.5px;
+font-weight: 700;
+letter-spacing: 0.3px;
+border-radius: 999px;
+padding: 2px 8px;
+white-space: nowrap;
+}
+.card-desc {
+font-size: 12px;
+color: var(--text-muted);
+margin: 0;
+display: -webkit-box;
+line-clamp: 3;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.card-footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 8px;
+margin-top: 7px;
+color: var(--text-muted);
+font-size: 11px;
+}
+.card-tag {
+padding: 4px 9px;
+border-radius: 7px;
+background: #eaf6fb;
+color: var(--accent-3);
+white-space: nowrap;
+}
+.column[data-col="1"] .card-tag { background: #e5faf5; color: #008e7d; }
+.column[data-col="2"] .card-tag { background: #eaf1fd; color: var(--accent-3); }
+.column[data-col="3"] .card-tag { background: #eeedff; color: #4e4bd4; }
+.card-comments { white-space: nowrap; }
+.card-desc.expanded {
+display: block;
+line-clamp: unset;
+-webkit-line-clamp: unset;
+overflow: visible;
+}
+.card-more {
+display: none;
+margin-top: 4px;
+background: none;
+border: none;
+padding: 0;
+font-size: 11.5px;
+font-weight: 700;
+color: var(--brand-1);
+cursor: pointer;
+}
+.card-more:hover { text-decoration: underline; }
+.empty {
+padding: 20px 12px;
+text-align: center;
+color: var(--text-muted);
+font-size: 13px;
+}
+#error {
+display: none;
+margin: 0 24px 16px;
+padding: 12px 16px;
+border-radius: 8px;
+background: var(--danger-bg);
+color: var(--danger);
+font-size: 13px;
+}
+.auth-gate {
+position: fixed;
+inset: 0;
+z-index: 20;
+display: grid;
+place-items: center;
+padding: 24px;
+background: rgba(245, 251, 253, 0.96);
+}
+.auth-box {
+width: min(100%, 360px);
+padding: 28px;
+border: 1px solid var(--border);
+border-radius: 16px;
+background: var(--panel-bg);
+box-shadow: var(--card-shadow);
+text-align: center;
+}
+.auth-box h2 { margin: 0 0 8px; font-size: 20px; }
+.auth-box p { margin: 0 0 18px; color: var(--text-muted); font-size: 13px; }
+.auth-box input {
+width: 100%;
+padding: 11px 12px;
+border: 1px solid var(--border);
+border-radius: 8px;
+font: inherit;
+}
+.auth-box button {
+width: 100%;
+margin-top: 10px;
+padding: 11px 12px;
+border: 0;
+border-radius: 8px;
+background: var(--pill-active-bg);
+color: var(--pill-active-text);
+font: inherit;
+font-weight: 700;
+cursor: pointer;
+}
+.auth-error { min-height: 18px; margin: 10px 0 0; color: var(--danger); font-size: 12px; }
+body.is-locked > :not(.auth-gate) { visibility: hidden; }
+@media (max-width: 900px) {
+.topbar { flex-wrap: wrap; }
+.brand { min-width: 0; flex-basis: 100%; }
+.client-logo { width: 220px; height: 94px; }
+.brand-text { margin-left: 0; transform: none; }
+.header-right { justify-content: flex-start; overflow-x: auto; }
+.controls { flex-wrap: wrap; }
+.search-wrap { flex-basis: 100%; max-width: none; }
+.view-toggle { margin-left: auto; }
+.column { min-width: 250px; flex-basis: 250px; }
+}
+</style>
+</head>
+<body class="is-locked">
+<div id="authGate" class="auth-gate">
+<form id="authForm" class="auth-box">
+<h2>IA AL DÍA</h2>
+<p>Introduce la contraseña para acceder al panel.</p>
+<input id="authPassword" type="password" autocomplete="current-password" placeholder="Contraseña" required />
+<button type="submit">Entrar</button>
+<div id="authError" class="auth-error" role="alert"></div>
+</form>
+</div>
+<div class="topbar">
+<div class="brand">
+<img class="client-logo" src="logo-byp.jpeg" alt="Berenguer y Pomares" />
+<div class="brand-text">
+<h1>IA AL DÍA</h1>
+<p>Panel de mejoras detectadas</p>
+</div>
+</div>
+<div class="header-right">
+<div class="metric">
+<span class="metric-icon">▱</span>
+<span><strong id="oppCount">0</strong><small>Oportunidades visibles</small></span>
+</div>
+<div class="metric live">
+<span class="metric-icon">●</span>
+<span><strong>En vivo</strong><small>Sistema operativo</small></span>
+</div>
+<div class="metric">
+<span class="metric-icon">↻</span>
+<span><strong>Actualizado</strong><small id="updatedTime">--:--:--</small></span>
+</div>
+<button id="refreshBtn" class="refresh-btn" title="Actualizar ahora"><span class="refresh-icon">⟳</span></button>
+</div>
+</div>
+
+<div class="controls">
+<div class="search-wrap">
+<span class="search-icon">&#128269;</span>
+<input id="searchInput" type="text" placeholder="Buscar por nombre o descripción..." />
+</div>
+<div class="filters" id="filters">
+<button class="pill active" data-filter="all">Todas</button>
+<button class="pill" data-filter="alta">Prioridad Alta</button>
+<button class="pill" data-filter="none">Sin prioridad</button>
+</div>
+<div class="view-toggle" aria-label="Vista">
+<button class="active" type="button" aria-label="Vista de tablero">▦</button>
+<button type="button" aria-label="Vista de lista">☷</button>
+</div>
+<div class="visible-count"><span id="visibleCount">0</span> visibles</div>
+</div>
+
+<div id="error"></div>
+<div id="board"></div>
+
+<script>
+const boardEl = document.getElementById("board");
+const errorEl = document.getElementById("error");
+const oppCountEl = document.getElementById("oppCount");
+const visibleCountEl = document.getElementById("visibleCount");
+const updatedTimeEl = document.getElementById("updatedTime");
+const searchInput = document.getElementById("searchInput");
+const filtersEl = document.getElementById("filters");
+const refreshBtn = document.getElementById("refreshBtn");
+const authGate = document.getElementById("authGate");
+const authForm = document.getElementById("authForm");
+const authPassword = document.getElementById("authPassword");
+const authError = document.getElementById("authError");
+
+const PANEL_PASSWORD = "B3r3ngu3r-P0m4r3$N7q!";
+
+function unlockPanel() {
+document.body.classList.remove("is-locked");
+authGate.remove();
+loadData();
+setInterval(loadData, 5 * 60 * 1000);
+}
+
+if (sessionStorage.getItem("berenguer-panel-access") === "granted") unlockPanel();
+
+authForm.addEventListener("submit", (event) => {
+event.preventDefault();
+if (authPassword.value !== PANEL_PASSWORD) {
+authError.textContent = "Contraseña incorrecta.";
+authPassword.select();
+return;
+}
+sessionStorage.setItem("berenguer-panel-access", "granted");
+unlockPanel();
+});
+
+let rawData = null;
+let currentFilter = "all";
+let currentSearch = "";
+
+function formatTime(iso) {
+if (!iso) return "--:--:--";
+const d = new Date(iso);
+return d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+}
+
+function isAlta(priority) {
+return !!priority && priority.trim().toLowerCase().includes("alta");
+}
+
+function matchesFilter(opp) {
+if (currentFilter === "alta") return isAlta(opp.priority);
+if (currentFilter === "none") return !opp.priority || !opp.priority.trim();
+return true;
+}
+
+function matchesSearch(opp) {
+if (!currentSearch) return true;
+const q = currentSearch.toLowerCase();
+return (
+(opp.name || "").toLowerCase().includes(q) ||
+(opp.description || "").toLowerCase().includes(q)
+);
+}
+
+function render() {
+if (!rawData) return;
+boardEl.innerHTML = "";
+let totalVisible = 0;
+const columnOrder = ["Mejora Detectada", "En marcha", "Terminada", "Stand By / Descartada"];
+const columns = [...(rawData.columns || [])].sort(
+(a, b) => columnOrder.indexOf(a.label) - columnOrder.indexOf(b.label)
+);
+const totalAll = columns.reduce((sum, c) => sum + c.opportunities.length, 0);
+
+columns.forEach((col, colIdx) => {
+const filtered = col.opportunities.filter((opp) => matchesFilter(opp) && matchesSearch(opp));
+totalVisible += filtered.length;
+
+const column = document.createElement("div");
+column.className = "column";
+column.dataset.col = colIdx;
+
+const header = document.createElement("div");
+header.className = "column-header";
+header.innerHTML = `<span class="dot"></span><span>${col.label}</span><span class="column-count">${filtered.length}</span>`;
+column.appendChild(header);
+
+const cardsWrap = document.createElement("div");
+cardsWrap.className = "cards";
+
+if (!filtered.length) {
+const empty = document.createElement("div");
+empty.className = "empty";
+empty.textContent = "Sin oportunidades";
+cardsWrap.appendChild(empty);
+} else {
+filtered.forEach((opp) => {
+const card = document.createElement("div");
+card.className = "card";
+
+const top = document.createElement("div");
+top.className = "card-top";
+const title = document.createElement("p");
+title.className = "card-title";
+title.textContent = opp.name;
+top.appendChild(title);
+if (isAlta(opp.priority)) {
+const badge = document.createElement("span");
+badge.className = "badge-alta";
+badge.textContent = "ALTA";
+top.appendChild(badge);
+}
+card.appendChild(top);
+
+if (opp.description) {
+const desc = document.createElement("p");
+desc.className = "card-desc";
+desc.textContent = opp.description;
+card.appendChild(desc);
+
+const moreBtn = document.createElement("button");
+moreBtn.type = "button";
+moreBtn.className = "card-more";
+moreBtn.textContent = "Ver más";
+card.appendChild(moreBtn);
+}
+const footer = document.createElement("div");
+footer.className = "card-footer";
+const tag = document.createElement("span");
+tag.className = "card-tag";
+tag.textContent = col.label === "Mejora Detectada" ? "Procesos" : col.label === "En marcha" ? "Marketing" : col.label === "Terminada" ? "Productividad" : "Web";
+footer.appendChild(tag);
+const comments = document.createElement("span");
+comments.className = "card-comments";
+comments.textContent = `▢ ${Math.max(3, (opp.name || "").length % 13)}`;
+footer.appendChild(comments);
+card.appendChild(footer);
+cardsWrap.appendChild(card);
+});
+}
+
+column.appendChild(cardsWrap);
+boardEl.appendChild(column);
+});
+
+oppCountEl.textContent = totalAll;
+visibleCountEl.textContent = totalVisible;
+
+requestAnimationFrame(() => {
+boardEl.querySelectorAll(".card-desc").forEach((desc) => {
+const btn = desc.nextElementSibling;
+if (!btn || !btn.classList.contains("card-more")) return;
+const isTruncated = desc.scrollHeight - desc.clientHeight > 1;
+btn.style.display = isTruncated ? "inline-block" : "none";
+});
+});
+}
+
+async function loadData() {
+refreshBtn.classList.add("spinning");
+try {
+const res = await fetch(`data.json?t=${Date.now()}`, { cache: "no-store" });
+if (!res.ok) throw new Error(`No se pudo cargar data.json (HTTP ${res.status})`);
+const data = await res.json();
+rawData = data;
+render();
+updatedTimeEl.textContent = formatTime(data.updatedAt || new Date().toISOString());
+errorEl.style.display = "none";
+} catch (err) {
+errorEl.textContent = `Error cargando datos: ${err.message}`;
+errorEl.style.display = "block";
+} finally {
+setTimeout(() => refreshBtn.classList.remove("spinning"), 700);
+}
+}
+
+filtersEl.addEventListener("click", (e) => {
+const btn = e.target.closest(".pill");
+if (!btn) return;
+filtersEl.querySelectorAll(".pill").forEach((p) => p.classList.remove("active"));
+btn.classList.add("active");
+currentFilter = btn.dataset.filter;
+render();
+});
+
+searchInput.addEventListener("input", (e) => {
+currentSearch = e.target.value.trim();
+render();
+});
+
+boardEl.addEventListener("click", (e) => {
+const btn = e.target.closest(".card-more");
+if (!btn) return;
+const desc = btn.previousElementSibling;
+if (!desc) return;
+const expanded = desc.classList.toggle("expanded");
+btn.textContent = expanded ? "Ver menos" : "Ver más";
+});
+
+refreshBtn.addEventListener("click", loadData);
+
+</script>
+</body>
+</html>
