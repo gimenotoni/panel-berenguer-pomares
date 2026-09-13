@@ -518,14 +518,28 @@ cursor: pointer;
 body.is-locked > :not(.auth-gate) { visibility: hidden; }
 @media (max-width: 900px) {
 .topbar { flex-wrap: wrap; }
-.brand { min-width: 0; flex-basis: 100%; }
-.client-logo { width: 220px; height: 94px; }
+.brand { min-width: 0; flex-basis: 100%; gap: 4px; }
+.client-logo { width: 178px; height: 80px; }
+.brand-text { min-width: 0; overflow: hidden; }
+.brand-text h1 { font-size: 16px; }
+.brand-text p { font-size: 10px; overflow: hidden; text-overflow: ellipsis; }
 .brand-text { margin-left: 0; transform: none; }
-.header-right { justify-content: flex-start; overflow-x: auto; }
+.header-right {
+flex-basis: 100%;
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr)) 38px;
+gap: 4px;
+overflow: visible;
+}
+.metric { gap: 3px; padding: 4px 4px; border-radius: 11px; }
+.metric-icon { width: 22px; height: 22px; border-radius: 7px; font-size: 12px; }
+.metric strong { font-size: 11px; }
+.metric small { font-size: 7px; line-height: 1.05; white-space: normal; }
+.refresh-btn { width: 38px; height: 38px; }
 .controls { flex-wrap: wrap; }
 .search-wrap { flex-basis: 100%; max-width: none; }
 .view-toggle { margin-left: auto; }
-.column { min-width: 250px; flex-basis: 250px; }
+.column { min-width: calc(100vw - 36px); flex-basis: calc(100vw - 36px); }
 }
 </style>
 </head>
@@ -574,11 +588,6 @@ body.is-locked > :not(.auth-gate) { visibility: hidden; }
 <button class="pill" data-filter="alta">Prioridad Alta</button>
 <button class="pill" data-filter="none">Sin prioridad</button>
 </div>
-<div class="view-toggle" aria-label="Vista">
-<button class="active" type="button" aria-label="Vista de tablero">▦</button>
-<button type="button" aria-label="Vista de lista">☷</button>
-</div>
-<div class="visible-count"><span id="visibleCount">0</span> visibles</div>
 </div>
 
 <div id="error"></div>
@@ -588,7 +597,6 @@ body.is-locked > :not(.auth-gate) { visibility: hidden; }
 const boardEl = document.getElementById("board");
 const errorEl = document.getElementById("error");
 const oppCountEl = document.getElementById("oppCount");
-const visibleCountEl = document.getElementById("visibleCount");
 const updatedTimeEl = document.getElementById("updatedTime");
 const searchInput = document.getElementById("searchInput");
 const filtersEl = document.getElementById("filters");
@@ -694,7 +702,7 @@ top.appendChild(title);
 if (isAlta(opp.priority)) {
 const badge = document.createElement("span");
 badge.className = "badge-alta";
-badge.textContent = "ALTA";
+badge.textContent = "Prioridad alta";
 top.appendChild(badge);
 }
 card.appendChild(top);
@@ -708,20 +716,9 @@ card.appendChild(desc);
 const moreBtn = document.createElement("button");
 moreBtn.type = "button";
 moreBtn.className = "card-more";
-moreBtn.textContent = "Ver más";
+moreBtn.textContent = "Leer más";
 card.appendChild(moreBtn);
 }
-const footer = document.createElement("div");
-footer.className = "card-footer";
-const tag = document.createElement("span");
-tag.className = "card-tag";
-tag.textContent = col.label === "Mejora Detectada" ? "Procesos" : col.label === "En marcha" ? "Marketing" : col.label === "Terminada" ? "Productividad" : "Web";
-footer.appendChild(tag);
-const comments = document.createElement("span");
-comments.className = "card-comments";
-comments.textContent = `▢ ${Math.max(3, (opp.name || "").length % 13)}`;
-footer.appendChild(comments);
-card.appendChild(footer);
 cardsWrap.appendChild(card);
 });
 }
@@ -731,7 +728,6 @@ boardEl.appendChild(column);
 });
 
 oppCountEl.textContent = totalAll;
-visibleCountEl.textContent = totalVisible;
 
 requestAnimationFrame(() => {
 boardEl.querySelectorAll(".card-desc").forEach((desc) => {
@@ -781,7 +777,7 @@ if (!btn) return;
 const desc = btn.previousElementSibling;
 if (!desc) return;
 const expanded = desc.classList.toggle("expanded");
-btn.textContent = expanded ? "Ver menos" : "Ver más";
+btn.textContent = expanded ? "Leer menos" : "Leer más";
 });
 
 refreshBtn.addEventListener("click", loadData);
