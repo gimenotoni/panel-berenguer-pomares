@@ -45,6 +45,10 @@ function norm(str) {
     return (str || "").trim().toUpperCase();
 }
 
+function getOpportunityStageId(opportunity) {
+    return opportunity.pipelineStageId || opportunity.pipeline_stage_id || opportunity.stageId || "";
+}
+
 async function ghlFetch(url) {
     const res = await fetch(url, { headers: HEADERS });
     if (!res.ok) {
@@ -159,7 +163,7 @@ async function main() {
   const columns = COLUMN_ORDER.map((col) => ({ label: col.label, opportunities: [] }));
 
   for (const opp of opportunities) {
-        const idx = columnIndexByStageId[opp.pipelineStageId];
+      const idx = columnIndexByStageId[getOpportunityStageId(opp)];
         if (idx === undefined) continue;
         columns[idx].opportunities.push({
                 id: opp.id,
@@ -168,6 +172,9 @@ async function main() {
             priority: extractDescription(opp, priorityFieldId),
         });
   }
+
+    console.log(`Oportunidades recibidas: ${opportunities.length}`);
+    console.log(`Oportunidades asignadas: ${columns.reduce((sum, col) => sum + col.opportunities.length, 0)}`);
 
   const output = {
         updatedAt: new Date().toISOString(),
