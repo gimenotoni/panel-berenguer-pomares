@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T09:00:39.818Z",
+  "updatedAt": "2026-09-14T14:00:04.880Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
@@ -171,7 +171,7 @@
           "id": "OGE3Ql0yFVgNEprEvN5l",
           "name": "M9 (Gemma G.) Recordatorios automáticos de plazos y pendientes",
           "description": "Gemma pide, como mejora prioritaria, recordatorios automáticos de los plazos y de lo que queda pendiente en cada expediente. Hoy este seguimiento depende de que ella misma recuerde revisarlo, y un sistema que avise cuando se acerca una fecha o una tarea sin resolver evitaría descuidos y aliviaría la carga mental de llevar varios asuntos a la vez.",
-          "priority": "Prioridad Alta"
+          "priority": "Sin prioridad"
         },
         {
           "id": "3YP3LYXil1mcBlAmrjeP",
@@ -183,7 +183,7 @@
           "id": "q3KijSJga6trfFlUWlqC",
           "name": "M8 (Gemma G.) Clasificación y archivo de correos con apoyo de IA",
           "description": "Clasificar y guardar los correos que recibe es una de las tareas que más tiempo le consume a Gemma en su día a día. La IA puede ayudar a identificar el tipo de correo y sugerir dónde archivarlo, o incluso hacerlo directamente, liberando tiempo que hoy dedica a esta gestión manual.",
-          "priority": "Prioridad Alta"
+          "priority": "Sin prioridad"
         },
         {
           "id": "PviEOa7mMTegtNVdW3m4",
