@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:05:24.590Z",
+  "updatedAt": "2026-09-14T09:00:39.818Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
@@ -8,145 +8,145 @@
         {
           "id": "wmbnYFizDvaxrxZeLAjx",
           "name": "M33 (Aitor P.) Apoyo en redacción de escritos e informes con IA (ya lo hace)",
-          "description": "Apoyo en redacción de escritos e informes con IA (ya lo hace)",
+          "description": "Aitor utiliza la IA como ayuda para redactar escritos e informes, generando un primer contenido sobre el que después trabaja. Mantener y reforzar esta práctica, compartiéndola con el resto del equipo legal, extendería un uso que ya le está funcionando bien.",
           "priority": ""
         },
         {
           "id": "AXOaN1ZXnOaVdY8RP1fP",
           "name": "M32 (Aitor P.) Pulir y traducir textos al inglés con IA (ya lo hace)",
-          "description": "Pulir y traducir textos al inglés con IA (ya lo hace)",
+          "description": "Aitor ya usa IA para mejorar gramaticalmente textos en inglés o para traducir directamente al inglés. Consolidar este uso como práctica estándar en el despacho, y extenderlo a quienes redactan en inglés con menos frecuencia, aseguraría una calidad más uniforme en las comunicaciones internacionales.",
           "priority": ""
         },
         {
           "id": "urM7Pk9Qd8wOwEYcGtOB",
           "name": "M31 (Mario P.) Resumir correos y documentos para recordar el estado de un asunto",
-          "description": "Resumir correos y documentos para recordar el estado de un asunto",
+          "description": "Antes de retomar un asunto, Mario necesita revisar correos y documentos para recordar en qué punto está. Un resumen generado por IA sobre esa documentación le permitiría situarse rápidamente sin tener que releer todo el hilo desde el principio.",
           "priority": ""
         },
         {
           "id": "JNZbBSHCOnPV2HWjbEih",
           "name": "M34 (Aitor P.) Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
-          "description": "Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
+          "description": "Aitor recurre a la IA para investigar información sobre empresas y analizar contenido disponible en internet como apoyo a su trabajo. Formalizar este uso como parte del proceso habitual de análisis previo a una actuación permitiría aprovechar mejor esta capacidad ya validada por él.",
           "priority": ""
         },
         {
           "id": "gLNvD75ywAcEKOCangyb",
           "name": "M29 (Mario P.) Generar informes internos o para clientes sobre acciones realizadas y pendientes",
-          "description": "Generar informes internos o para clientes sobre acciones realizadas y pendientes",
+          "description": "Mario dedica tiempo a preparar informes internos y para clientes sobre las acciones realizadas y las que quedan pendientes en cada asunto. Generar un primer borrador de estos informes con IA, a partir de la documentación del expediente, le permitiría centrarse en revisar y matizar el contenido en lugar de redactarlo desde cero.",
           "priority": ""
         },
         {
           "id": "ZdbMYgt8sz9K7ch4dn4u",
           "name": "M25 (Mariam M.) Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
-          "description": "Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
+          "description": "Organizar los correos de cada cliente en las carpetas correspondientes de Outlook es una de las tareas que más tiempo le ocupa a Mariam. La IA puede identificar el cliente y el asunto de cada correo entrante y clasificarlo directamente en la carpeta que le corresponde.",
           "priority": ""
         },
         {
           "id": "M7aJPNRBoXbrLYahGs6c",
           "name": "M27 (Lydia G.) Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
-          "description": "Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
+          "description": "Lydia ya usa IA para traducir correos electrónicos, pero lo hace con su cuenta personal gratuita en lugar de con una licencia de empresa. Formalizar este uso con una cuenta corporativa resolvería tanto el tema de privacidad de la información como el de las limitaciones de la versión gratuita.",
           "priority": ""
         },
         {
           "id": "dKctE2M1Gwe600OWRb6A",
           "name": "M23 (Mariam M.) Redactar correos con IA (corresponsales, clientes)",
-          "description": "Redactar correos con IA (corresponsales, clientes)",
+          "description": "Mariam usa la IA para redactar correos, tanto para contactar con corresponsales como para responder a clientes, y le funciona muy bien. Formalizar este uso como práctica habitual en su día a día consolidaría un hábito que ya le está dando buen resultado.",
           "priority": ""
         },
         {
           "id": "nhvryfDS7gvgmGxOEJzJ",
           "name": "M24 (Mariam M.) Localizar casos anteriores similares al que se está trabajando",
-          "description": "Localizar casos anteriores similares al que se está trabajando",
+          "description": "Cuando Mariam tiene un caso sobre un tema concreto, le sería útil que un sistema pudiera buscar automáticamente todos los casos anteriores en los que ha trabajado sobre temas parecidos. Esto le permitiría partir de trabajo ya hecho en lugar de reconstruir el enfoque desde cero cada vez.",
           "priority": ""
         },
         {
           "id": "Fh2M7k7RC1FRDv8Vmax1",
           "name": "M28 (Mario P.) Generar borradores de presupuestos con IA a partir de documentos previos",
-          "description": "Generar borradores de presupuestos con IA a partir de documentos previos",
+          "description": "Mario ya usa IA para elaborar presupuestos apo yándose en documentos anteriores. Sistematizar este proceso con prompts o plantillas reutilizables permitiría que generar un nuevo presupuesto sea más rápido y consistente, sin depender de repetir manualmente el mismo proceso cada vez.",
           "priority": ""
         },
         {
           "id": "oxobkzrGckqUBQ6OUkCD",
           "name": "M30 (Mario P.) Apoyo en la elaboración de escritos jurídicos",
-          "description": "Apoyo en la elaboración de escritos jurídicos",
+          "description": "Como parte de su trabajo diario, Mario revisa y elabora escritos jurídicos junto con el resto del equipo directivo. Usar IA para generar un primer borrador de estos escritos, a partir de la información del caso, le ahorraría tiempo en la fase de redacción inicial.",
           "priority": ""
         },
         {
           "id": "eo9G20PQD2hgNz85epg5",
           "name": "M26 (Lydia G.) Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
-          "description": "Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
+          "description": "Lydia necesita localizar información de tarifas y presupuestos que hoy está dispersa en distintos correos electrónicos. Convertir esa información en una tabla o documento estructurado, buscable por cliente, tarifa y motivo del presupuesto, evitaría el tiempo que dedica a rebuscar entre correos antiguos cada vez que necesita un dato concreto.",
           "priority": ""
         },
         {
           "id": "5K3S112rzRUpPdtvKnpz",
           "name": "M21 (Tomás B.) Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
-          "description": "Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
+          "description": "Tomás ya usa una técnica que le funciona bien: da a la IA el esquema o argumentario en bruto, sin cuidar la redacción, y le pide que desarrolle el escrito a partir de ahí. Formalizar esta práctica y enseñarla al resto del equipo permitiría que otros abogados se beneficien de un método ya probado, en lugar de que cada uno descubra por su cuenta cómo sacarle partido a la IA.",
           "priority": ""
         },
         {
           "id": "o05CKzDiYqMwAssbm4cL",
           "name": "M22 (Camilo S.) Generar escritos jurídicos a partir de una plantilla dinámica",
-          "description": "Generar escritos jurídicos a partir de una plantilla dinámica",
+          "description": "Camilo identifica que muchos de sus escritos jurídicos podrían generarse a partir de una plantilla en la que solo cambia la información concreta de cada caso. Ya lo está probando con una IA jurídica específica, y esta misma lógica de plantilla dinámica se podría aplicar con IA general para acelerar la redacción de los escritos más estandarizados.",
           "priority": ""
         },
         {
           "id": "gpxPPDcRZQOLiRTYSBX8",
           "name": "M11 (María Paula S.) Traducir y adaptar lingüísticamente documentación y comunicaciones",
-          "description": "Traducir y adaptar lingüísticamente documentación y comunicaciones",
+          "description": "Parte del trabajo de María Paula consiste en traducir y adaptar comunicaciones y documentación para corresponsales internacionales. La IA puede encargarse de un primer borrador de traducción o adaptación, dejando a su cargo solo la revisión y el ajuste final al contexto del caso.",
           "priority": ""
         },
         {
           "id": "BaSHXtIm88G4P3U9VGi7",
           "name": "M16 (Manuel T.) Generar el esqueleto básico de requerimientos",
-          "description": "Generar el esqueleto básico de requerimientos",
+          "description": "Antes de personalizar un requerimiento, Manuel parte de una estructura básica que se repite en distintos casos. Generar ese esqueleto inicial con IA, indicando los datos del asunto, le dejaría solo la tarea de adaptar el contenido específico de cada requerimiento.",
           "priority": ""
         },
         {
           "id": "QtBb6I9CpZyA5VhkHxlg",
           "name": "M15 (Manuel T.) Usar la IA como primer filtro en la búsqueda de jurisprudencia",
-          "description": "Usar la IA como primer filtro en la búsqueda de jurisprudencia",
+          "description": "Manuel dedica tiempo a localizar jurisprudencia relevante para sus casos. La IA puede realizar una primera búsqueda y preselección de resoluciones relacionadas, que después él verifica y depura con criterio profesional, reduciendo el tiempo de búsqueda inicial sin sustituir la validación jurídica.",
           "priority": ""
         },
         {
           "id": "XTXKwfm4Ui4ZROHZ9Iym",
           "name": "M20 (Tomás B.) Renombrar y archivar automáticamente los documentos recibidos por email",
-          "description": "Renombrar y archivar automáticamente los documentos recibidos por email",
+          "description": "Tomás debe renombrar cada documento recibido por email conforme a la nomenclatura y numeración del expediente antes de archivarlo en Apiges. Automatizar este renombrado y archivo con ayuda de IA eliminaría una tarea puramente mecánica que hoy le resta tiempo de trabajo jurídico.",
           "priority": ""
         },
         {
           "id": "5mskATX1zaMs36cmUEmE",
           "name": "M19 (Tomás B.) Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
-          "description": "Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
+          "description": "Cuando empieza a redactar una demanda u otro escrito complejo, Tomás busca escritos anteriores con contenido similar en los que apoyarse. Con IA, al detectar la información del caso (por ejemplo, a partir de los correos con el cliente), el sistema podría localizar automáticamente esos escritos previos y ayudar a redactar con ellos las partes que se repiten, en lugar de tener que buscarlos manualmente cada vez.",
           "priority": ""
         },
         {
           "id": "UEvVMMtADTiQBOQ9P634",
           "name": "M17 (Manuel T.) Generar recordatorios de seguimiento de temas pendientes y facturas",
-          "description": "Generar recordatorios de seguimiento de temas pendientes y facturas",
+          "description": "El seguimiento de determinados asuntos y de las facturas pendientes es una tarea recurrente que hoy depende del control manual de Manuel. Un sistema de recordatorios generados con apoyo de IA sobre estos temas evitaría que algo quede sin seguimiento por falta de tiempo para revisarlo.",
           "priority": ""
         },
         {
           "id": "toFbt4XOJoG4sOwULHXq",
           "name": "M13 (Manuel T.) Generar primeros borradores de cláusulas contractuales habituales",
-          "description": "Generar primeros borradores de cláusulas contractuales habituales",
+          "description": "Manuel redacta con frecuencia cláusulas contractuales que se repiten de un contrato a otro con pequeñas variaciones. Generar un primer borrador de estas cláusulas con IA, a partir de la información concreta de cada caso, le permitiría centrarse en la negociación y en los puntos verdaderamente específicos del contrato.",
           "priority": ""
         },
         {
           "id": "6u9eHVvgkCaFnn3cPJzN",
           "name": "M12 (María Paula S.) Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
-          "description": "Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
+          "description": "Antes de avanzar en un expediente, María Paula necesita revisar resoluciones, oposiciones y documentación anterior para entender los antecedentes del caso. Un resumen generado por IA que destaque los aspectos más relevantes de esa documentación le ahorraría el tiempo de lectura completa de todo el histórico.",
           "priority": ""
         },
         {
           "id": "1iPaAv7iauevbgcjLdDu",
           "name": "M14 (Manuel T.) Generar primeros borradores de fundamentos de derecho en escritos judiciales",
-          "description": "Generar primeros borradores de fundamentos de derecho en escritos judiciales",
+          "description": "En la redacción de escritos judiciales, una parte del tiempo se va en desarrollar los fundamentos de derecho, que en muchos casos siguen líneas argumentales conocidas. Un primer borrador generado por IA sobre esta sección, que Manuel después revisa y ajusta al caso, aceleraría la preparación de estos escritos.",
           "priority": ""
         },
         {
           "id": "TJj0hTvO0lCsXOGi0YvQ",
           "name": "M18 (Tomás B.) Responder correos de estructura repetitiva con ayuda de IA",
-          "description": "Responder correos de estructura repetitiva con ayuda de IA",
+          "description": "Tomás responde con frecuencia a clientes con correos de contenido y estructura muy similar entre sí. Usar IA para generar un primer borrador de estas respuestas, a partir de plantillas ya identificadas, le ahorraría el tiempo de redactar cada una desde cero.",
           "priority": ""
         },
         {
