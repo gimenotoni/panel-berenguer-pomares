@@ -1,212 +1,152 @@
 {
-  "updatedAt": "2026-09-25T05:40:35.762Z",
+  "updatedAt": "2026-09-25T10:33:49.429Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
       "label": "Mejora Detectada",
       "opportunities": [
         {
-          "id": "wmbnYFizDvaxrxZeLAjx",
-          "name": "M33 (Aitor P.) Apoyo en redacción de escritos e informes con IA (ya lo hace)",
-          "description": "Aitor utiliza la IA como ayuda para redactar escritos e informes, generando un primer contenido sobre el que después trabaja. Mantener y reforzar esta práctica, compartiéndola con el resto del equipo legal, extendería un uso que ya le está funcionando bien.",
+          "id": "OYRM842YWnR5DwzcC1X1",
+          "name": "M24 · Pautas y comprobación de los datos al dar de alta en Apiges",
+          "description": "Los datos de las marcas entran en Apiges con errores y el equipo no se fía de ellos. Alejandra comprueba todo en las oficinas nacionales antes de contestar a un cliente, así que el trabajo se hace dos o tres veces.\n\nErrores que ha visto: las marcas mixtas entran sin logo cuando se cargan desde TMview, las clases limitadas tras una oposición no se reflejan, en China se ha registrado alguna vez la aceptación a trámite como si fuera la concesión, y en los registros internacionales cada país puede tener una clasificación distinta que cuesta mucho meter bien.\n\nEl caso más delicado son los números que cambian. En México cada clase de un registro internacional pasa a ser una solicitud y un registro con número propio, y en Italia y Argentina el número cambia en cada renovación. Apiges no tiene un campo para el número anterior (se apuntaba a mano en Observaciones) y a veces se da de alta una marca nueva porque no se encuentra la antigua, con lo que se pierde la cadena.\n\nQué se propone: pautas de alta por país (qué hay que meter y dónde en cada caso) para quien carga los datos, que es sobre todo Mayra, y ver si la IA puede leer las notificaciones y preparar los datos para que solo haya que comprobarlos. Hay que hablarlo con Mayra y con Aitor, que es quien mejor conoce Apiges. Mayra no tiene contacto en NOVA, por eso la tarjeta va a nombre de Alejandra, que es quien lo ha detectado.\n\nDetectado en la sesión individual con Alejandra del 25 de septiembre de 2026.",
           "priority": ""
         },
         {
-          "id": "AXOaN1ZXnOaVdY8RP1fP",
-          "name": "M32 (Aitor P.) Pulir y traducir textos al inglés con IA (ya lo hace)",
-          "description": "Aitor ya usa IA para mejorar gramaticalmente textos en inglés o para traducir directamente al inglés. Consolidar este uso como práctica estándar en el despacho, y extenderlo a quienes redactan en inglés con menos frecuencia, aseguraría una calidad más uniforme en las comunicaciones internacionales.",
+          "id": "Yq3S95B0FJztFRmXmSAH",
+          "name": "M19 · Facturación, avisos y control de facturas de corresponsales",
+          "description": "Alejandra propone que, al emitir una factura, salga un aviso a administración con los conceptos y los importes ya puestos. Lydia lleva el control de las facturas de proveedores y corresponsales y el punteo de bancos, y Manuel necesita seguir las facturas pendientes de sus asuntos.\n\nEl tipo de mejora está por decidir. Lydia es quien ejecuta la facturación, así que hay que verlo con ella antes de tocar nada.",
           "priority": ""
         },
         {
-          "id": "urM7Pk9Qd8wOwEYcGtOB",
-          "name": "M31 (Mario P.) Resumir correos y documentos para recordar el estado de un asunto",
-          "description": "Antes de retomar un asunto, Mario necesita revisar correos y documentos para recordar en qué punto está. Un resumen generado por IA sobre esa documentación le permitiría situarse rápidamente sin tener que releer todo el hilo desde el principio.",
+          "id": "ma3IVjHCwUh027gKt7HQ",
+          "name": "M16 · Correo para escribir a todo el equipo",
+          "description": "Una dirección de correo para escribir a todo el equipo a la vez, en lugar de poner a cada persona a mano. Salió en la reunión de arranque del 7 de septiembre.\n\nEs un llaverito: crearla en Microsoft 365.",
+          "priority": ""
+        },
+        {
+          "id": "LfE56u416xtCkyxYdBuH",
+          "name": "M15 · Comunicación interna en Teams",
+          "description": "Sacar la comunicación interna del correo, que hoy se mezcla con la de clientes y corresponsales. Lo pidió Aitor.\n\nYa tienen Microsoft Teams incluido en su suscripción de Microsoft 365, así que es un llaverito: solo falta decidir usarlo.",
+          "priority": ""
+        },
+        {
+          "id": "hUGlgJwIeGjbL0p6wAmN",
+          "name": "M09 · Informe de viabilidad de marca con los criterios de las oficinas",
+          "description": "Gemma prepara informes de viabilidad de marca aplicando los criterios y las directrices de las distintas oficinas. Una skill que conozca esos criterios y prepare el primer borrador del informe, que después ella revisa.\n\nPara empezar hacen falta los criterios y las directrices de las oficinas, con ejemplos. Ya se los pedimos en su sesión del 21 de septiembre y hay que recordárselo a través de Mario.",
+          "priority": ""
+        },
+        {
+          "id": "sCiS3cl6xorvXxpcDuHG",
+          "name": "M08 · Quitar los avisos automáticos de Apiges que no aplican",
+          "description": "Los avisos automáticos de Apiges generan tanto ruido que no se miran, y cada persona lleva sus plazos en su Outlook. Propuesta nuestra, a raíz de lo que contó Aitor: quitar los que no aplican, por ejemplo el de aportar el poder, para que los que quedan se lean.\n\nEs un llaverito. Hay que verlo en Apiges con Aitor.",
+          "priority": ""
+        },
+        {
+          "id": "MuQEcI5s2GMEURIQQTPg",
+          "name": "M07 · Aviso diario de incidencias del boletín",
+          "description": "María José revisa a diario las incidencias del boletín y avisa a los compañeros de las que les afectan. Hay que ver cómo hacerlo más fácil, y el tipo de mejora está por decidir.\n\nHace falta saber cuánto tiempo le lleva y verlo en Apiges con Aitor.",
+          "priority": ""
+        },
+        {
+          "id": "1NALmPzDyMUZLxIgiI1a",
+          "name": "M06 · Seguimiento de los recordatorios de renovación",
+          "description": "El seguimiento de los recordatorios de renovación se lleva hoy en una agenda de papel, y 7 u 8 de cada 10 clientes no contestan al primer aviso, así que hay que perseguirlos a mano.\n\nLa idea es automatizar ese seguimiento para que los recordatorios salgan solos hasta que el cliente conteste. Hay que verlo en Apiges con Aitor.",
+          "priority": ""
+        },
+        {
+          "id": "SkBxyGUbrUrfF8OeBukp",
+          "name": "M05 · Cartas de renovación del mes, con los costes calculados",
+          "description": "María José prepara las cartas de renovación una a una, en un lote cada dos meses, con el precio puesto a mano. La idea es sacar las de todo el mes de una vez, como borradores y con los costes ya calculados, para que ella solo las revise.\n\nUsa la misma tarifa que los presupuestos (M11). Para empezar hacen falta la tarifa de precios, la carta de renovación que usa y el listado de vencimientos exportable de Apiges.",
+          "priority": ""
+        },
+        {
+          "id": "ZGmJAoJ6nAOGkUfFjPtN",
+          "name": "M03 · Un usuario propio para cada persona en cada programa",
+          "description": "En la sesión del 22 de septiembre hubo que entrar en Apiges con el usuario de otra compañera. Cada persona debería tener su propio usuario en cada programa, para saber quién hace qué y para que las skills y los accesos se den por persona.\n\nEs un llaverito: revisarlo con Aitor.",
+          "priority": ""
+        },
+        {
+          "id": "o3CbyzoTWhNqEp322kGt",
+          "name": "M02 · Política de uso de IA y registro de herramientas",
+          "description": "Hoy no hay normas escritas sobre el uso de IA en el despacho, y la única regla es usarla con seguridad y sentido común. En un despacho que maneja expedientes confidenciales y datos económicos de clientes, lo mínimo es saber qué herramientas se usan, quién las usa y con qué datos.\n\nLa política de uso y el registro de herramientas ya están redactados, sobre el modelo de Mohure. Falta que Mario y Aitor los revisen y los firmen.",
+          "priority": ""
+        },
+        {
+          "id": "d0WdxdU0eXRm8GJ4SFhm",
+          "name": "M01 · Licencias de IA de empresa, una por persona",
+          "description": "7 de las 11 personas que respondieron al formulario no tienen licencia de IA pagada por el despacho y trabajan con cuentas personales o gratuitas, y la cuenta de pago de ChatGPT es individual y se comparte. Tomás lo pide expresamente.\n\nPropuesta: una sola IA general de empresa, una cuenta por persona. Recomendamos Claude Team, con ChatGPT Business como alternativa (una de las dos, no ambas). Dar de baja la cuenta compartida, mantener Copilot básico y revisar Lexroom y GenIA-L en 30 días.\n\nLa decisión es de Mario y Aitor. Va primero porque las skills necesitan una cuenta de empresa donde vivir.",
           "priority": ""
         },
         {
           "id": "JNZbBSHCOnPV2HWjbEih",
-          "name": "M34 (Aitor P.) Apoyo en investigaciones sobre empresas y análisis de contenido en internet (ya lo hace)",
+          "name": "M23 · Investigación de empresas y análisis de contenido en internet",
           "description": "Aitor recurre a la IA para investigar información sobre empresas y analizar contenido disponible en internet como apoyo a su trabajo. Formalizar este uso como parte del proceso habitual de análisis previo a una actuación permitiría aprovechar mejor esta capacidad ya validada por él.",
           "priority": ""
         },
         {
-          "id": "gLNvD75ywAcEKOCangyb",
-          "name": "M29 (Mario P.) Generar informes internos o para clientes sobre acciones realizadas y pendientes",
-          "description": "Mario dedica tiempo a preparar informes internos y para clientes sobre las acciones realizadas y las que quedan pendientes en cada asunto. Generar un primer borrador de estos informes con IA, a partir de la documentación del expediente, le permitiría centrarse en revisar y matizar el contenido en lugar de redactarlo desde cero.",
-          "priority": ""
-        },
-        {
-          "id": "ZdbMYgt8sz9K7ch4dn4u",
-          "name": "M25 (Mariam M.) Clasificar automáticamente los correos de cada cliente en carpetas de Outlook",
-          "description": "Organizar los correos de cada cliente en las carpetas correspondientes de Outlook es una de las tareas que más tiempo le ocupa a Mariam. La IA puede identificar el cliente y el asunto de cada correo entrante y clasificarlo directamente en la carpeta que le corresponde.",
-          "priority": ""
-        },
-        {
-          "id": "M7aJPNRBoXbrLYahGs6c",
-          "name": "M27 (Lydia G.) Traducir correos electrónicos con IA (formalizar con cuenta de empresa)",
-          "description": "Lydia ya usa IA para traducir correos electrónicos, pero lo hace con su cuenta personal gratuita en lugar de con una licencia de empresa. Formalizar este uso con una cuenta corporativa resolvería tanto el tema de privacidad de la información como el de las limitaciones de la versión gratuita.",
-          "priority": ""
-        },
-        {
-          "id": "dKctE2M1Gwe600OWRb6A",
-          "name": "M23 (Mariam M.) Redactar correos con IA (corresponsales, clientes)",
-          "description": "Mariam usa la IA para redactar correos, tanto para contactar con corresponsales como para responder a clientes, y le funciona muy bien. Formalizar este uso como práctica habitual en su día a día consolidaría un hábito que ya le está dando buen resultado.",
-          "priority": ""
-        },
-        {
           "id": "nhvryfDS7gvgmGxOEJzJ",
-          "name": "M24 (Mariam M.) Localizar casos anteriores similares al que se está trabajando",
-          "description": "Cuando Mariam tiene un caso sobre un tema concreto, le sería útil que un sistema pudiera buscar automáticamente todos los casos anteriores en los que ha trabajado sobre temas parecidos. Esto le permitiría partir de trabajo ya hecho en lugar de reconstruir el enfoque desde cero cada vez.",
-          "priority": ""
-        },
-        {
-          "id": "Fh2M7k7RC1FRDv8Vmax1",
-          "name": "M28 (Mario P.) Generar borradores de presupuestos con IA a partir de documentos previos",
-          "description": "Mario ya usa IA para elaborar presupuestos apo yándose en documentos anteriores. Sistematizar este proceso con prompts o plantillas reutilizables permitiría que generar un nuevo presupuesto sea más rápido y consistente, sin depender de repetir manualmente el mismo proceso cada vez.",
-          "priority": ""
-        },
-        {
-          "id": "oxobkzrGckqUBQ6OUkCD",
-          "name": "M30 (Mario P.) Apoyo en la elaboración de escritos jurídicos",
-          "description": "Como parte de su trabajo diario, Mario revisa y elabora escritos jurídicos junto con el resto del equipo directivo. Usar IA para generar un primer borrador de estos escritos, a partir de la información del caso, le ahorraría tiempo en la fase de redacción inicial.",
-          "priority": ""
-        },
-        {
-          "id": "eo9G20PQD2hgNz85epg5",
-          "name": "M26 (Lydia G.) Estructurar la información de correos con tarifas y presupuestos en una tabla buscable",
-          "description": "Lydia necesita localizar información de tarifas y presupuestos que hoy está dispersa en distintos correos electrónicos. Convertir esa información en una tabla o documento estructurado, buscable por cliente, tarifa y motivo del presupuesto, evitaría el tiempo que dedica a rebuscar entre correos antiguos cada vez que necesita un dato concreto.",
+          "name": "M17 · Toda la información del expediente en un sitio, con buscador",
+          "description": "Tener toda la información del expediente en un solo sitio y poder buscar en los correos y los documentos, por ejemplo casos o escritos anteriores parecidos al que se está trabajando, para partir de trabajo ya hecho. Lo piden Mariam, Tomás, Alejandra, Mario y Lydia.\n\nTomás lo quiere al redactar una demanda, que el sistema encuentre solo los escritos previos a partir de la información del caso, en lugar de buscarlos a mano cada vez.\n\nDepende de pasar los documentos del servidor local a la nube, que lleva su informático.",
           "priority": ""
         },
         {
           "id": "5K3S112rzRUpPdtvKnpz",
-          "name": "M21 (Tomás B.) Formalizar y extender al equipo la técnica que ya usa Tomás (esquema en bruto → IA lo redacta)",
-          "description": "Tomás ya usa una técnica que le funciona bien: da a la IA el esquema o argumentario en bruto, sin cuidar la redacción, y le pide que desarrolle el escrito a partir de ahí. Formalizar esta práctica y enseñarla al resto del equipo permitiría que otros abogados se beneficien de un método ya probado, en lugar de que cada uno descubra por su cuenta cómo sacarle partido a la IA.",
-          "priority": ""
-        },
-        {
-          "id": "o05CKzDiYqMwAssbm4cL",
-          "name": "M22 (Camilo S.) Generar escritos jurídicos a partir de una plantilla dinámica",
-          "description": "Camilo identifica que muchos de sus escritos jurídicos podrían generarse a partir de una plantilla en la que solo cambia la información concreta de cada caso. Ya lo está probando con una IA jurídica específica, y esta misma lógica de plantilla dinámica se podría aplicar con IA general para acelerar la redacción de los escritos más estandarizados.",
+          "name": "M10 · Escritos y correos que siguen siempre la misma estructura",
+          "description": "Escritos y correos que siguen siempre la misma estructura: registro de marcas, requerimientos, oposiciones, cláusulas de contratos, fundamentos de derecho en escritos judiciales y respuestas a clientes y corresponsales. Lo piden Tomás, Camilo, Manuel, Mario, Mariam, Gemma y Aitor.\n\nUna sola skill para toda la casa, que parte de las plantillas y los escritos anteriores del despacho y de la información concreta del caso, y deja un primer borrador para que el abogado lo revise. Incluye el tono y la forma de escribir del despacho, común a todo lo que se genere.\n\nTomás y Aitor ya lo hacen por su cuenta: Tomás le da a la IA el esquema en bruto y le pide que redacte el escrito, y Aitor genera un primer contenido sobre el que después trabaja. Mariam ya redacta correos con IA. Se trata de mejorar esa forma de trabajar y extenderla al resto del equipo.\n\nPara empezar hacen falta tres o cuatro escritos tipo de cada área.",
           "priority": ""
         },
         {
           "id": "gpxPPDcRZQOLiRTYSBX8",
-          "name": "M11 (María Paula S.) Traducir y adaptar lingüísticamente documentación y comunicaciones",
-          "description": "Parte del trabajo de María Paula consiste en traducir y adaptar comunicaciones y documentación para corresponsales internacionales. La IA puede encargarse de un primer borrador de traducción o adaptación, dejando a su cargo solo la revisión y el ajuste final al contexto del caso.",
-          "priority": ""
-        },
-        {
-          "id": "BaSHXtIm88G4P3U9VGi7",
-          "name": "M16 (Manuel T.) Generar el esqueleto básico de requerimientos",
-          "description": "Antes de personalizar un requerimiento, Manuel parte de una estructura básica que se repite en distintos casos. Generar ese esqueleto inicial con IA, indicando los datos del asunto, le dejaría solo la tarea de adaptar el contenido específico de cada requerimiento.",
+          "name": "M21 · Traducción de documentos y correos",
+          "description": "Traducir y adaptar documentación y comunicaciones, sobre todo con corresponsales internacionales, y pulir textos en inglés. María Paula lo necesita como parte de su trabajo, Lydia ya traduce correos con IA pero con su cuenta personal gratuita, y Aitor ya la usa para mejorar y traducir textos al inglés.\n\nLa IA hace el primer borrador y la persona revisa y ajusta. Se trata de mejorar esa forma de trabajar, hacerlo con cuenta de empresa y extenderlo a quien escribe en inglés con menos frecuencia.",
           "priority": ""
         },
         {
           "id": "QtBb6I9CpZyA5VhkHxlg",
-          "name": "M15 (Manuel T.) Usar la IA como primer filtro en la búsqueda de jurisprudencia",
-          "description": "Manuel dedica tiempo a localizar jurisprudencia relevante para sus casos. La IA puede realizar una primera búsqueda y preselección de resoluciones relacionadas, que después él verifica y depura con criterio profesional, reduciendo el tiempo de búsqueda inicial sin sustituir la validación jurídica.",
-          "priority": ""
-        },
-        {
-          "id": "XTXKwfm4Ui4ZROHZ9Iym",
-          "name": "M20 (Tomás B.) Renombrar y archivar automáticamente los documentos recibidos por email",
-          "description": "Tomás debe renombrar cada documento recibido por email conforme a la nomenclatura y numeración del expediente antes de archivarlo en Apiges. Automatizar este renombrado y archivo con ayuda de IA eliminaría una tarea puramente mecánica que hoy le resta tiempo de trabajo jurídico.",
-          "priority": ""
-        },
-        {
-          "id": "5mskATX1zaMs36cmUEmE",
-          "name": "M19 (Tomás B.) Localizar escritos anteriores similares y usarlos como base para redactar con IA las partes repetidas",
-          "description": "Cuando empieza a redactar una demanda u otro escrito complejo, Tomás busca escritos anteriores con contenido similar en los que apoyarse. Con IA, al detectar la información del caso (por ejemplo, a partir de los correos con el cliente), el sistema podría localizar automáticamente esos escritos previos y ayudar a redactar con ellos las partes que se repiten, en lugar de tener que buscarlos manualmente cada vez.",
-          "priority": ""
-        },
-        {
-          "id": "UEvVMMtADTiQBOQ9P634",
-          "name": "M17 (Manuel T.) Generar recordatorios de seguimiento de temas pendientes y facturas",
-          "description": "El seguimiento de determinados asuntos y de las facturas pendientes es una tarea recurrente que hoy depende del control manual de Manuel. Un sistema de recordatorios generados con apoyo de IA sobre estos temas evitaría que algo quede sin seguimiento por falta de tiempo para revisarlo.",
-          "priority": ""
-        },
-        {
-          "id": "toFbt4XOJoG4sOwULHXq",
-          "name": "M13 (Manuel T.) Generar primeros borradores de cláusulas contractuales habituales",
-          "description": "Manuel redacta con frecuencia cláusulas contractuales que se repiten de un contrato a otro con pequeñas variaciones. Generar un primer borrador de estas cláusulas con IA, a partir de la información concreta de cada caso, le permitiría centrarse en la negociación y en los puntos verdaderamente específicos del contrato.",
-          "priority": ""
-        },
-        {
-          "id": "6u9eHVvgkCaFnn3cPJzN",
-          "name": "M12 (María Paula S.) Resumir expedientes, resoluciones y documentación previa destacando lo relevante",
-          "description": "Antes de avanzar en un expediente, María Paula necesita revisar resoluciones, oposiciones y documentación anterior para entender los antecedentes del caso. Un resumen generado por IA que destaque los aspectos más relevantes de esa documentación le ahorraría el tiempo de lectura completa de todo el histórico.",
-          "priority": ""
-        },
-        {
-          "id": "1iPaAv7iauevbgcjLdDu",
-          "name": "M14 (Manuel T.) Generar primeros borradores de fundamentos de derecho en escritos judiciales",
-          "description": "En la redacción de escritos judiciales, una parte del tiempo se va en desarrollar los fundamentos de derecho, que en muchos casos siguen líneas argumentales conocidas. Un primer borrador generado por IA sobre esta sección, que Manuel después revisa y ajusta al caso, aceleraría la preparación de estos escritos.",
-          "priority": ""
-        },
-        {
-          "id": "TJj0hTvO0lCsXOGi0YvQ",
-          "name": "M18 (Tomás B.) Responder correos de estructura repetitiva con ayuda de IA",
-          "description": "Tomás responde con frecuencia a clientes con correos de contenido y estructura muy similar entre sí. Usar IA para generar un primer borrador de estas respuestas, a partir de plantillas ya identificadas, le ahorraría el tiempo de redactar cada una desde cero.",
+          "name": "M20 · Revisar el uso de Lexroom y GenIA-L (IA jurídica)",
+          "description": "Las dos IA jurídicas que ya pagan, Lexroom (3 licencias) y GenIA-L, no convencen a quienes las usan, Manuel y Camilo. Hay que revisar con ellos cómo las usan antes de renovar o de comprar otra.\n\nUno de los usos que buscan es que la IA haga una primera búsqueda y preselección de jurisprudencia, que después Manuel verifica con su criterio.",
           "priority": ""
         },
         {
           "id": "xRLFQdnVMQNGTfg8dzOf",
-          "name": "M1 (Alejandra C.) Extracción automática de datos de notificaciones y borrador de correo al cliente",
+          "name": "M12 · Datos de las notificaciones y borrador del correo al cliente",
           "description": "Cada notificación que llega de una oficina de marcas o de un corresponsal contiene los mismos datos clave: marca, número, país, clases, tipo de resolución, plazo y actuación a realizar. Alejandra dedica bastante tiempo a localizar estos datos manualmente y, después, a redactar un correo para informar al cliente siguiendo una estructura que se repite en la mayoría de los casos. Con IA se puede extraer esa información directamente del documento y generar sobre ella un primer borrador de correo, dejando a Alejandra solo la revisión final y el ajuste al caso concreto.",
           "priority": ""
         },
         {
           "id": "w7H6trRx1jEiJbodqW84",
-          "name": "M10 (María Paula S.) Revisión de documentos para detectar errores e inconsistencias",
+          "name": "M22 · Revisión de documentos para detectar errores",
           "description": "En su trabajo de preparación de informes de viabilidad y documentación de procedimientos, María Paula podría delegar en IA la revisión de documentos para detectar errores, datos que faltan, referencias incorrectas o diferencias entre versiones. Esto le permitiría dedicar el tiempo de revisión final a los aspectos de fondo, en lugar de a comprobaciones más mecánicas.",
           "priority": ""
         },
         {
           "id": "WhTpIoqRAxuMkGI3dX8m",
-          "name": "M6 (María José G.) Resumen de boletines y generación del aviso de vencimiento",
-          "description": "María José revisa a diario los boletines de la Propiedad Industrial y los boletines de parecidos para detectar vencimientos, y a partir de ahí redacta los avisos correspondientes y sus recordatorios. Con IA se puede resumir el boletín para señalar directamente los vencimientos relevantes y generar el texto del aviso a partir de esa información, reduciendo el tiempo que hoy dedica a esta tarea diaria.",
+          "name": "M04 · Primer filtro con IA de los parecidos semanales",
+          "description": "María José revisa cada semana la lista de parecidos del boletín, marca a marca, para decidir cuáles se avisan al cliente. Le lleva de 2 a 3 horas por revisión, y Mario lo señala como el proceso que más tiempo consume del despacho. La idea es que la IA haga un primer filtro con el criterio del despacho y deje una lista corta, de unas 2.000 marcas a unas 150, con el motivo de cada una.\n\nAlejandra hace algo parecido en los informes de vigilancia de marcas: prepara a mano la tabla con las solicitudes detectadas, sus datos, las clases, la traducción de productos o servicios y el derecho propio que serviría para oponerse. Esa primera tabla también la puede sacar la IA, y a ella le queda valorar el riesgo y decidir.\n\nPara empezar hace falta sacar la lista completa de Apiges en Excel y ejemplos de parecidos que sí y que no se avisaron, con el motivo (María José y Mario).",
           "priority": ""
         },
         {
-          "id": "OGE3Ql0yFVgNEprEvN5l",
-          "name": "M9 (Gemma G.) Recordatorios automáticos de plazos y pendientes",
-          "description": "Gemma pide, como mejora prioritaria, recordatorios automáticos de los plazos y de lo que queda pendiente en cada expediente. Hoy este seguimiento depende de que ella misma recuerde revisarlo, y un sistema que avise cuando se acerca una fecha o una tarea sin resolver evitaría descuidos y aliviaría la carga mental de llevar varios asuntos a la vez.",
-          "priority": "Sin prioridad"
-        },
-        {
           "id": "3YP3LYXil1mcBlAmrjeP",
-          "name": "M2 (Alejandra C.) Resumen cronológico automático del expediente",
-          "description": "Cuando necesita reconstruir la situación de un expediente, Alejandra tiene que revisar cadenas de correos, documentos anteriores y las bases de datos de las oficinas para saber qué se decidió, qué se hizo y qué queda pendiente. Un resumen generado por IA a partir de esa documentación dispersa le daría de un vistazo el histórico de actuaciones, las decisiones tomadas y los asuntos abiertos, ahorrando el tiempo de reconstrucción manual cada vez que retoma un caso.",
+          "name": "M18 · Resumen cronológico de cada expediente",
+          "description": "Un resumen de cada expediente con lo que se ha hecho, lo que se decidió, lo que queda pendiente y el próximo plazo, sacado de los correos, los documentos y las bases de datos de las oficinas. Hoy, para retomar un asunto, hay que releer todo el histórico. Lo piden Alejandra, María Paula, Mario y Aitor.\n\nMario también prepara informes internos y para clientes sobre lo hecho y lo pendiente en cada asunto, que saldrían de este mismo resumen.\n\nDepende de M17 (toda la información del expediente en un sitio).",
           "priority": ""
         },
         {
           "id": "q3KijSJga6trfFlUWlqC",
-          "name": "M8 (Gemma G.) Clasificación y archivo de correos con apoyo de IA",
-          "description": "Clasificar y guardar los correos que recibe es una de las tareas que más tiempo le consume a Gemma en su día a día. La IA puede ayudar a identificar el tipo de correo y sugerir dónde archivarlo, o incluso hacerlo directamente, liberando tiempo que hoy dedica a esta gestión manual.",
+          "name": "M13 · Clasificar y archivar correos en Outlook y en Apiges",
+          "description": "Clasificar y archivar los correos que llegan, en las carpetas de Outlook de cada cliente y en Apiges. Es de las tareas que más tiempo les quita a Gemma y a Mariam. Tomás, además, tiene que renombrar cada documento que le llega por correo con la nomenclatura y la numeración del expediente antes de archivarlo en Apiges.\n\nLa IA puede reconocer el cliente y el asunto de cada correo y archivarlo, o proponer dónde va, y renombrar los adjuntos. Aitor coincide en que es un problema del despacho.\n\nDepende de ver Apiges con Aitor.",
           "priority": "Sin prioridad"
         },
         {
           "id": "PviEOa7mMTegtNVdW3m4",
-          "name": "M7 (Gemma G.) Cálculo y redacción de presupuestos con IA",
-          "description": "Gemma dedica parte de su tiempo a dar costes a los clientes, un proceso que hoy hace de forma manual consultando distintas fuentes de tarifas. Usar IA para calcular y redactar el presupuesto a partir de esa información le permitiría entregar la respuesta al cliente más rápido, revisando únicamente el resultado final antes de enviarlo.",
+          "name": "M11 · Presupuestos y consultas de costes por país",
+          "description": "Presupuestos y respuestas a consultas de costes por país. Hoy se ponen los precios a mano, cruzando los honorarios del corresponsal, las tasas oficiales y los honorarios del despacho. Lo piden Gemma, Alejandra, Mario y Lydia.\n\nLa idea es una sola pieza que conozca la tarifa y que, indicando el país, el tipo de marca y las clases, calcule los costes y redacte el presupuesto. Siempre lo revisa una persona antes de enviarlo. Mario ya prepara presupuestos con IA a partir de documentos anteriores, y Lydia necesita encontrar las tarifas que hoy están repartidas en correos antiguos, con un buscador por cliente, tarifa y motivo del presupuesto.\n\nEs la misma tarifa que la de las cartas de renovación (M05). Para empezar hacen falta la tarifa de precios y tasas y los presupuestos por país que ya tienen.",
           "priority": ""
         },
         {
           "id": "Ow8tYbmoXEy0W4GGAGDr",
-          "name": "M5 (Alejandra C.) Avisos automáticos de plazos e instrucciones pendientes",
-          "description": "Alejandra necesita estar pendiente de si lleva tiempo esperando instrucciones del cliente, una respuesta del corresponsal, o si se acerca un plazo sin que se haya realizado la actuación correspondiente. Un aviso generado por IA cuando se cumplen estas condiciones evitaría que algún dato o actuación se le escape, y permitiría que cualquier compañero que intervenga en el asunto entienda rápido en qué situación se encuentra.",
-          "priority": ""
-        },
-        {
-          "id": "Z8fdb6qZ44DBmp1GqH3b",
-          "name": "M4 (Alejandra C.) Cálculo automático de presupuestos de registro de marca",
-          "description": "Preparar un presupuesto de registro implica cruzar tres datos por país: los honorarios del corresponsal, las tasas oficiales y los honorarios propios del despacho. Alejandra propone que, indicando el país, un sistema con IA pueda ofrecer automáticamente estos tres importes y el total a comunicar al cliente, evitando la búsqueda manual de cada componente cada vez que se solicita un presupuesto.",
-          "priority": ""
-        },
-        {
-          "id": "I3KeJnYGNa2YVl810R3B",
-          "name": "M3 (Alejandra C.) Tabla inicial de los informes de vigilancia de marcas",
-          "description": "En los reportes de vigilancia, Alejandra prepara a mano una tabla con las solicitudes detectadas, sus datos, las clases correspondientes, la traducción de productos o servicios y el derecho propio que serviría de base para una posible oposición. Esta primera tabla se puede generar con IA a partir de los datos brutos de la vigilancia, quedando para ella únicamente la valoración del riesgo y la decisión sobre la estrategia a seguir.",
+          "name": "M14 · Tareas desde el correo y plazos compartidos",
+          "description": "Que un encargo que llega por correo cree la tarea sola y que los plazos y los pendientes se compartan (Microsoft To Do), con un aviso cuando se lleva tiempo esperando instrucciones del cliente o respuesta del corresponsal, o cuando se acerca un plazo sin que se haya hecho la actuación. Lo piden Alejandra, Gemma y Aitor, y Manuel necesita lo mismo para el seguimiento de sus asuntos pendientes.\n\nHoy cada persona lleva sus plazos en su Outlook y depende de acordarse de revisarlos. Es organización interna, así que les damos la recomendación y la decisión es suya.\n\nLo de las facturas pendientes de Manuel va en M19.",
           "priority": ""
         }
       ]
