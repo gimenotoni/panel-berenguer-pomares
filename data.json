@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:33:49.429Z",
+  "updatedAt": "2026-09-25T15:33:39.361Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
@@ -15,18 +15,6 @@
           "id": "Yq3S95B0FJztFRmXmSAH",
           "name": "M19 · Facturación, avisos y control de facturas de corresponsales",
           "description": "Alejandra propone que, al emitir una factura, salga un aviso a administración con los conceptos y los importes ya puestos. Lydia lleva el control de las facturas de proveedores y corresponsales y el punteo de bancos, y Manuel necesita seguir las facturas pendientes de sus asuntos.\n\nEl tipo de mejora está por decidir. Lydia es quien ejecuta la facturación, así que hay que verlo con ella antes de tocar nada.",
-          "priority": ""
-        },
-        {
-          "id": "ma3IVjHCwUh027gKt7HQ",
-          "name": "M16 · Correo para escribir a todo el equipo",
-          "description": "Una dirección de correo para escribir a todo el equipo a la vez, en lugar de poner a cada persona a mano. Salió en la reunión de arranque del 7 de septiembre.\n\nEs un llaverito: crearla en Microsoft 365.",
-          "priority": ""
-        },
-        {
-          "id": "LfE56u416xtCkyxYdBuH",
-          "name": "M15 · Comunicación interna en Teams",
-          "description": "Sacar la comunicación interna del correo, que hoy se mezcla con la de clientes y corresponsales. Lo pidió Aitor.\n\nYa tienen Microsoft Teams incluido en su suscripción de Microsoft 365, así que es un llaverito: solo falta decidir usarlo.",
           "priority": ""
         },
         {
@@ -49,32 +37,8 @@
         },
         {
           "id": "1NALmPzDyMUZLxIgiI1a",
-          "name": "M06 · Seguimiento de los recordatorios de renovación",
-          "description": "El seguimiento de los recordatorios de renovación se lleva hoy en una agenda de papel, y 7 u 8 de cada 10 clientes no contestan al primer aviso, así que hay que perseguirlos a mano.\n\nLa idea es automatizar ese seguimiento para que los recordatorios salgan solos hasta que el cliente conteste. Hay que verlo en Apiges con Aitor.",
-          "priority": ""
-        },
-        {
-          "id": "SkBxyGUbrUrfF8OeBukp",
-          "name": "M05 · Cartas de renovación del mes, con los costes calculados",
-          "description": "María José prepara las cartas de renovación una a una, en un lote cada dos meses, con el precio puesto a mano. La idea es sacar las de todo el mes de una vez, como borradores y con los costes ya calculados, para que ella solo las revise.\n\nUsa la misma tarifa que los presupuestos (M11). Para empezar hacen falta la tarifa de precios, la carta de renovación que usa y el listado de vencimientos exportable de Apiges.",
-          "priority": ""
-        },
-        {
-          "id": "ZGmJAoJ6nAOGkUfFjPtN",
-          "name": "M03 · Un usuario propio para cada persona en cada programa",
-          "description": "En la sesión del 22 de septiembre hubo que entrar en Apiges con el usuario de otra compañera. Cada persona debería tener su propio usuario en cada programa, para saber quién hace qué y para que las skills y los accesos se den por persona.\n\nEs un llaverito: revisarlo con Aitor.",
-          "priority": ""
-        },
-        {
-          "id": "o3CbyzoTWhNqEp322kGt",
-          "name": "M02 · Política de uso de IA y registro de herramientas",
-          "description": "Hoy no hay normas escritas sobre el uso de IA en el despacho, y la única regla es usarla con seguridad y sentido común. En un despacho que maneja expedientes confidenciales y datos económicos de clientes, lo mínimo es saber qué herramientas se usan, quién las usa y con qué datos.\n\nLa política de uso y el registro de herramientas ya están redactados, sobre el modelo de Mohure. Falta que Mario y Aitor los revisen y los firmen.",
-          "priority": ""
-        },
-        {
-          "id": "d0WdxdU0eXRm8GJ4SFhm",
-          "name": "M01 · Licencias de IA de empresa, una por persona",
-          "description": "7 de las 11 personas que respondieron al formulario no tienen licencia de IA pagada por el despacho y trabajan con cuentas personales o gratuitas, y la cuenta de pago de ChatGPT es individual y se comparte. Tomás lo pide expresamente.\n\nPropuesta: una sola IA general de empresa, una cuenta por persona. Recomendamos Claude Team, con ChatGPT Business como alternativa (una de las dos, no ambas). Dar de baja la cuenta compartida, mantener Copilot básico y revisar Lexroom y GenIA-L en 30 días.\n\nLa decisión es de Mario y Aitor. Va primero porque las skills necesitan una cuenta de empresa donde vivir.",
+          "name": "M06 · Seguimiento de lo que no contesta: clientes y corresponsales",
+          "description": "El seguimiento de los recordatorios de renovación se lleva hoy en una agenda de papel, y 7 u 8 de cada 10 clientes no contestan al primer aviso, así que hay que perseguirlos a mano.\n\nLa idea es automatizar ese seguimiento para que los recordatorios salgan solos hasta que el cliente conteste. Hay que verlo en Apiges con Aitor.\n\nAmpliada tras la sesión con Alejandra del 25 de septiembre. El problema no es solo de las renovaciones: en cualquier asunto hay clientes que no dan instrucciones y corresponsales que no contestan, y cada recordatorio (redactarlo, anotarlo y archivarlo) le lleva a Alejandra entre 10 y 15 minutos. Los quiere siempre en un tono suave, sin ir a reclamar directamente.\n\nLa mejora es la misma pieza para todos: detectar lo que lleva tiempo parado y dejar preparado el borrador del recordatorio en el tono de cada persona, para que solo haya que revisarlo y enviarlo. Para saber qué está parado hay que decidir de dónde se lee (el Planner de Alejandra o Apiges), lo mismo que en M14.",
           "priority": ""
         },
         {
@@ -92,7 +56,7 @@
         {
           "id": "5K3S112rzRUpPdtvKnpz",
           "name": "M10 · Escritos y correos que siguen siempre la misma estructura",
-          "description": "Escritos y correos que siguen siempre la misma estructura: registro de marcas, requerimientos, oposiciones, cláusulas de contratos, fundamentos de derecho en escritos judiciales y respuestas a clientes y corresponsales. Lo piden Tomás, Camilo, Manuel, Mario, Mariam, Gemma y Aitor.\n\nUna sola skill para toda la casa, que parte de las plantillas y los escritos anteriores del despacho y de la información concreta del caso, y deja un primer borrador para que el abogado lo revise. Incluye el tono y la forma de escribir del despacho, común a todo lo que se genere.\n\nTomás y Aitor ya lo hacen por su cuenta: Tomás le da a la IA el esquema en bruto y le pide que redacte el escrito, y Aitor genera un primer contenido sobre el que después trabaja. Mariam ya redacta correos con IA. Se trata de mejorar esa forma de trabajar y extenderla al resto del equipo.\n\nPara empezar hacen falta tres o cuatro escritos tipo de cada área.",
+          "description": "Escritos y correos que siguen siempre la misma estructura: registro de marcas, requerimientos, oposiciones, cláusulas de contratos, fundamentos de derecho en escritos judiciales y respuestas a clientes y corresponsales. Lo piden Tomás, Camilo, Manuel, Mario, Mariam, Gemma y Aitor.\n\nUna sola skill para toda la casa, que parte de las plantillas y los escritos anteriores del despacho y de la información concreta del caso, y deja un primer borrador para que el abogado lo revise. Incluye el tono y la forma de escribir del despacho, común a todo lo que se genere.\n\nTomás y Aitor ya lo hacen por su cuenta: Tomás le da a la IA el esquema en bruto y le pide que redacte el escrito, y Aitor genera un primer contenido sobre el que después trabaja. Mariam ya redacta correos con IA. Se trata de mejorar esa forma de trabajar y extenderla al resto del equipo.\n\nPara empezar hacen falta tres o cuatro escritos tipo de cada área.\n\nAlejandra (sesión del 25 de septiembre) también lo hace ya: usa ChatGPT de pago, que paga ella, como una secretaria a la que dicta los correos para clientes y corresponsales y luego los corrige. Necesita que el tono cambie según el cliente (más cercano o más formal) y que los recordatorios sean suaves. Tiene plantillas propias en Outlook por cliente y país que conviene aprovechar como base.",
           "priority": ""
         },
         {
@@ -120,12 +84,6 @@
           "priority": ""
         },
         {
-          "id": "WhTpIoqRAxuMkGI3dX8m",
-          "name": "M04 · Primer filtro con IA de los parecidos semanales",
-          "description": "María José revisa cada semana la lista de parecidos del boletín, marca a marca, para decidir cuáles se avisan al cliente. Le lleva de 2 a 3 horas por revisión, y Mario lo señala como el proceso que más tiempo consume del despacho. La idea es que la IA haga un primer filtro con el criterio del despacho y deje una lista corta, de unas 2.000 marcas a unas 150, con el motivo de cada una.\n\nAlejandra hace algo parecido en los informes de vigilancia de marcas: prepara a mano la tabla con las solicitudes detectadas, sus datos, las clases, la traducción de productos o servicios y el derecho propio que serviría para oponerse. Esa primera tabla también la puede sacar la IA, y a ella le queda valorar el riesgo y decidir.\n\nPara empezar hace falta sacar la lista completa de Apiges en Excel y ejemplos de parecidos que sí y que no se avisaron, con el motivo (María José y Mario).",
-          "priority": ""
-        },
-        {
           "id": "3YP3LYXil1mcBlAmrjeP",
           "name": "M18 · Resumen cronológico de cada expediente",
           "description": "Un resumen de cada expediente con lo que se ha hecho, lo que se decidió, lo que queda pendiente y el próximo plazo, sacado de los correos, los documentos y las bases de datos de las oficinas. Hoy, para retomar un asunto, hay que releer todo el histórico. Lo piden Alejandra, María Paula, Mario y Aitor.\n\nMario también prepara informes internos y para clientes sobre lo hecho y lo pendiente en cada asunto, que saldrían de este mismo resumen.\n\nDepende de M17 (toda la información del expediente en un sitio).",
@@ -134,30 +92,56 @@
         {
           "id": "q3KijSJga6trfFlUWlqC",
           "name": "M13 · Clasificar y archivar correos en Outlook y en Apiges",
-          "description": "Clasificar y archivar los correos que llegan, en las carpetas de Outlook de cada cliente y en Apiges. Es de las tareas que más tiempo les quita a Gemma y a Mariam. Tomás, además, tiene que renombrar cada documento que le llega por correo con la nomenclatura y la numeración del expediente antes de archivarlo en Apiges.\n\nLa IA puede reconocer el cliente y el asunto de cada correo y archivarlo, o proponer dónde va, y renombrar los adjuntos. Aitor coincide en que es un problema del despacho.\n\nDepende de ver Apiges con Aitor.",
+          "description": "Clasificar y archivar los correos que llegan, en las carpetas de Outlook de cada cliente y en Apiges. Es de las tareas que más tiempo les quita a Gemma y a Mariam. Tomás, además, tiene que renombrar cada documento que le llega por correo con la nomenclatura y la numeración del expediente antes de archivarlo en Apiges.\n\nLa IA puede reconocer el cliente y el asunto de cada correo y archivarlo, o proponer dónde va, y renombrar los adjuntos. Aitor coincide en que es un problema del despacho.\n\nDepende de ver Apiges con Aitor.\n\nAlejandra (sesión del 25 de septiembre) también guarda cada correo en carpetas por cliente y asunto en su Outlook, y cada seguimiento que hace implica volver a archivar. Es parte de los 10 a 15 minutos que le lleva cada recordatorio (M06).",
           "priority": "Sin prioridad"
-        },
-        {
-          "id": "PviEOa7mMTegtNVdW3m4",
-          "name": "M11 · Presupuestos y consultas de costes por país",
-          "description": "Presupuestos y respuestas a consultas de costes por país. Hoy se ponen los precios a mano, cruzando los honorarios del corresponsal, las tasas oficiales y los honorarios del despacho. Lo piden Gemma, Alejandra, Mario y Lydia.\n\nLa idea es una sola pieza que conozca la tarifa y que, indicando el país, el tipo de marca y las clases, calcule los costes y redacte el presupuesto. Siempre lo revisa una persona antes de enviarlo. Mario ya prepara presupuestos con IA a partir de documentos anteriores, y Lydia necesita encontrar las tarifas que hoy están repartidas en correos antiguos, con un buscador por cliente, tarifa y motivo del presupuesto.\n\nEs la misma tarifa que la de las cartas de renovación (M05). Para empezar hacen falta la tarifa de precios y tasas y los presupuestos por país que ya tienen.",
-          "priority": ""
         },
         {
           "id": "Ow8tYbmoXEy0W4GGAGDr",
           "name": "M14 · Tareas desde el correo y plazos compartidos",
-          "description": "Que un encargo que llega por correo cree la tarea sola y que los plazos y los pendientes se compartan (Microsoft To Do), con un aviso cuando se lleva tiempo esperando instrucciones del cliente o respuesta del corresponsal, o cuando se acerca un plazo sin que se haya hecho la actuación. Lo piden Alejandra, Gemma y Aitor, y Manuel necesita lo mismo para el seguimiento de sus asuntos pendientes.\n\nHoy cada persona lleva sus plazos en su Outlook y depende de acordarse de revisarlos. Es organización interna, así que les damos la recomendación y la decisión es suya.\n\nLo de las facturas pendientes de Manuel va en M19.",
+          "description": "Que un encargo que llega por correo cree la tarea sola y que los plazos y los pendientes se compartan (Microsoft To Do), con un aviso cuando se lleva tiempo esperando instrucciones del cliente o respuesta del corresponsal, o cuando se acerca un plazo sin que se haya hecho la actuación. Lo piden Alejandra, Gemma y Aitor, y Manuel necesita lo mismo para el seguimiento de sus asuntos pendientes.\n\nHoy cada persona lleva sus plazos en su Outlook y depende de acordarse de revisarlos. Es organización interna, así que les damos la recomendación y la decisión es suya.\n\nLo de las facturas pendientes de Manuel va en M19.\n\nSesión con Alejandra del 25 de septiembre: ella ya tiene un sistema propio en Planner que sirve de modelo, y dejó To Do porque no le funcionaba (cada oposición o nulidad era una tarea suelta, se mezclaban y no podía poner vencimientos distintos por país). Monta un plan por asunto, con un cubo para cada procedimiento o país (por ejemplo, la oposición y el requerimiento de cese en cubos distintos, o un cubo por país en un informe de varios países), y en cada tarea una lista con el histórico fechado. Desde ahí asigna asuntos a Paula, Marian y Gemma y les hace el seguimiento.\n\nLo comparte con Mario y Aitor, pero nadie más lo usa, y Aitor prefiere llevar el seguimiento en Apiges. Hay que decidir con él dónde vive el seguimiento del despacho (Planner, Apiges o los dos). Otros detalles: Planner no deja archivar un plan cerrado, solo borrarlo, y ella lo marca como cerrado para no perder el historial; no todo el equipo tiene Office 365 (M03).",
           "priority": ""
         }
       ]
     },
     {
       "label": "En marcha",
-      "opportunities": []
+      "opportunities": [
+        {
+          "id": "SkBxyGUbrUrfF8OeBukp",
+          "name": "M05 · Cartas de renovación del mes, con los costes calculados",
+          "description": "María José prepara las cartas de renovación una a una, en un lote cada dos meses, con el precio puesto a mano. La idea es sacar las de todo el mes de una vez, como borradores y con los costes ya calculados, para que ella solo las revise.\n\nUsa la misma tarifa que los presupuestos (M11). Para empezar hacen falta la tarifa de precios, la carta de renovación que usa y el listado de vencimientos exportable de Apiges.",
+          "priority": ""
+        },
+        {
+          "id": "d0WdxdU0eXRm8GJ4SFhm",
+          "name": "M01 · Licencias de IA de empresa, una por persona",
+          "description": "7 de las 11 personas que respondieron al formulario no tienen licencia de IA pagada por el despacho y trabajan con cuentas personales o gratuitas, y la cuenta de pago de ChatGPT es individual y se comparte. Tomás lo pide expresamente.\n\nPropuesta: una sola IA general de empresa, una cuenta por persona. Recomendamos Claude Team, con ChatGPT Business como alternativa (una de las dos, no ambas). Dar de baja la cuenta compartida, mantener Copilot básico y revisar Lexroom y GenIA-L en 30 días.\n\nLa decisión es de Mario y Aitor. Va primero porque las skills necesitan una cuenta de empresa donde vivir.",
+          "priority": ""
+        },
+        {
+          "id": "WhTpIoqRAxuMkGI3dX8m",
+          "name": "M04 · Vigilancia de marcas: primer filtro con IA de los boletines y tabla inicial del informe",
+          "description": "Vigilancia de marcas: detectar las solicitudes de terceros que se parecen a las marcas de los clientes, decidir cuáles se avisan y preparar el informe.\n\nMaría José revisa cada semana los boletines de España y de la Unión Europea que saca Apiges, marca a marca, para decidir cuáles se avisan al cliente. Le lleva de 2 a 3 horas por revisión, y Mario lo señala como el proceso que más tiempo consume del despacho. La idea es que la IA haga un primer filtro con el criterio del despacho y deje una lista corta, de unas 2.000 marcas a unas 150, con el motivo de cada una.\n\nAlejandra hace lo mismo con las marcas en el extranjero, que son casi todo su trabajo, a partir del boletín semanal de Markify. Con cada parecido escribe al cliente con la base de una posible oposición (tiene plantillas propias, por ejemplo la del acuerdo de la Unión Europea con Perú, Colombia y Ecuador) y, si el cliente quiere seguir, pide costes y viabilidad al corresponsal.\n\nDespués del filtro viene el informe de vigilancia. Hoy Alejandra prepara a mano la tabla con las solicitudes detectadas, sus datos, las clases, la traducción de los productos o servicios y el derecho propio que serviría para oponerse. Esa primera tabla también la puede sacar la IA, y a ellas les queda valorar el riesgo y decidir.\n\nSon dos fuentes distintas (Apiges y Markify), así que hay que ver si una misma pieza sirve para las dos o hace falta una entrada para cada una. Para empezar hacen falta la lista completa de Apiges en Excel, un ejemplo del boletín de Markify y ejemplos de parecidos que sí y que no se avisaron, con el motivo (María José, Alejandra y Mario).",
+          "priority": ""
+        },
+        {
+          "id": "PviEOa7mMTegtNVdW3m4",
+          "name": "M11 · Presupuestos y consultas de costes por país",
+          "description": "Presupuestos y respuestas a consultas de costes por país. Hoy se ponen los precios a mano, cruzando los honorarios del corresponsal, las tasas oficiales y los honorarios del despacho. Lo piden Gemma, Alejandra, Mario y Lydia.\n\nLa idea es una sola pieza que conozca la tarifa y que, indicando el país, el tipo de marca y las clases, calcule los costes y redacte el presupuesto. Siempre lo revisa una persona antes de enviarlo. Mario ya prepara presupuestos con IA a partir de documentos anteriores, y Lydia necesita encontrar las tarifas que hoy están repartidas en correos antiguos, con un buscador por cliente, tarifa y motivo del presupuesto.\n\nEs la misma tarifa que la de las cartas de renovación (M05). Para empezar hacen falta la tarifa de precios y tasas y los presupuestos por país que ya tienen.\n\nDetalle de la sesión con Alejandra del 25 de septiembre. Hoy cada presupuesto pasa por Mario para que decida el margen: ella le manda lo que cobra el corresponsal, espera su respuesta y luego da al cliente un precio global. La tarifa tiene dos partes. Por un lado, los costes de los corresponsales por país, que cambian con el tiempo y habría que pedirles una vez al año para tener la tabla al día. Por otro, el margen o la tarifa de cada cliente, porque algunos tienen tarifa especial (Mercadona o la Federación Nacional de Cafeteros, por ejemplo); una parte está en una carpeta del servidor y otra solo la sabe Mario, que podría agrupar a los clientes por margen.\n\nSi Mario deja escrito su criterio, la mejora también le quita trabajo a él, que hoy tiene que contestar cada consulta. Hace falta que alguien se encargue de mantener la tabla al día.",
+          "priority": ""
+        }
+      ]
     },
     {
       "label": "Terminada",
-      "opportunities": []
+      "opportunities": [
+        {
+          "id": "o3CbyzoTWhNqEp322kGt",
+          "name": "M02 · Política de uso de IA y registro de herramientas",
+          "description": "Hoy no hay normas escritas sobre el uso de IA en el despacho, y la única regla es usarla con seguridad y sentido común. En un despacho que maneja expedientes confidenciales y datos económicos de clientes, lo mínimo es saber qué herramientas se usan, quién las usa y con qué datos.\n\nLa política de uso y el registro de herramientas ya están redactados, sobre el modelo de Mohure. Falta que Mario y Aitor los revisen y los firmen.",
+          "priority": ""
+        }
+      ]
     },
     {
       "label": "Stand By / Descartada",
