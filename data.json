@@ -1,10 +1,40 @@
 {
-  "updatedAt": "2026-10-01T13:39:30.124Z",
+  "updatedAt": "2026-10-01T19:02:18.768Z",
   "pipeline": "Berenguer y Pomares - IA AL DÍA",
   "columns": [
     {
       "label": "Mejora Detectada",
       "opportunities": [
+        {
+          "id": "Yobjg2b2zQ8aRZsQPgWw",
+          "name": "P29 · Altas y revisión de expedientes en Apiges hechas por la IA",
+          "description": "Hoy, cuando entra un asunto, los abogados le piden a administración que abra la ficha del cliente y los expedientes nuevos en Apiges. Y cuando el expediente se importa desde las oficinas (TMview, OEPM, EUIPO), a veces la importación falla y hay que revisarla a mano.\n\nQue la IA haga esas altas directamente en Apiges a partir de la instrucción del abogado, y que revise los expedientes importados comprobando que los datos coinciden con la oficina y que los campos obligatorios están rellenos.\n\nDepende de que Grupo 10 dé acceso a la API de Apiges, que Aitor ha quedado en preguntar. Es un desarrollo aparte del acompañamiento. Lo pidió Aitor en la reunión del 1 de octubre.",
+          "priority": ""
+        },
+        {
+          "id": "MZlrDhRTFPynY12v1QkK",
+          "name": "M28 · Asistente de Apiges: cómo se hace cada cosa, sin ir al manual",
+          "description": "Apiges tiene mil opciones y casi nadie en el despacho lo domina. Cuando hay que hacer algo nuevo se consulta el manual online de Grupo 10 o sus vídeos de YouTube, y cuesta encontrar la respuesta.\n\nUn asistente de IA que tiene leída esa documentación y las transcripciones de los vídeos, al que se le pregunta directamente cómo se hace cada cosa en Apiges (dar de alta un expediente, generar una carta, configurar una tarea) y responde con los pasos. Lleva además las pautas del despacho sobre qué campos hay que rellenar en cada tipo de expediente, para que las cartas y los avisos automáticos salgan bien.\n\nPara quien usa Apiges a diario (Mair, María José) y para quien lo configura (Aitor). Lo pidió Aitor en la reunión del 1 de octubre.",
+          "priority": ""
+        },
+        {
+          "id": "ZDIesYaHPPkZdbkr2XTI",
+          "name": "M27 · Plantilla de factura a medida de cada cliente grande en el editor de Apiges",
+          "description": "Dos o tres clientes grandes exigen recibir la factura en su propio formato, una factura consolidada con sus referencias (referencia del cliente, familia de marca, nombre de proyecto). Hoy a esos clientes se les factura a mano cada mes, o se paga a Grupo 10 una sesión por cada plantilla.\n\nLa plantilla de factura de Apiges no se hace en Word, se hace en un editor de informes propio que es difícil de manejar. Una herramienta de IA que, con las instrucciones de facturación que manda cada cliente, guíe paso a paso en ese editor con capturas de pantalla, hasta dejar hecha la plantilla de ese cliente. Se construye una vez y vale para todos los clientes, con un fichero de instrucciones por cada uno que se actualiza cuando el cliente cambia sus normas.\n\nLa descripción de servicios que acompaña a la factura va aparte, con una plantilla de Word normal (mejora de plantillas de textos). Para que la factura detecte las referencias hace falta rellenarlas en los campos de referencia del expediente al darlo de alta. Lo pidió Aitor en la reunión del 1 de octubre.",
+          "priority": ""
+        },
+        {
+          "id": "VjzMfMHg5yrgoDn9UIDl",
+          "name": "M26 · Crear artículos de facturación en Apiges",
+          "description": "Los conceptos que se facturan de forma repetida están en la gestión financiera de Apiges como artículos con variables, y los usa Lidia al emitir cada factura. Hay muchos creados y pocos en uso, y los nuevos no se crean porque lleva tiempo, así que el texto de la factura se pasa por correo y se teclea a mano.\n\nUna herramienta de IA que redacte el artículo con sus variables a partir de lo que se quiere facturar, o que, dada una factura ya hecha, diga qué variable va en cada sitio para convertirla en artículo.\n\nUsa las mismas variables que las plantillas de textos, así que comparte con esa mejora el diccionario de variables y la sesión con Aitor. Lo pidió Aitor en la reunión del 1 de octubre.",
+          "priority": ""
+        },
+        {
+          "id": "TjS95kNXUimcLQ2DlD5E",
+          "name": "M25 · Crear plantillas de textos de Apiges",
+          "description": "Las cartas y correos que Apiges genera solos a partir del expediente (avisos de renovación, publicación de la marca, notificaciones de oposición con su plazo) salen de plantillas de Word con variables. Hacer una plantilla cuesta una tarde, y hay unas 20 hechas de las 80 que harían falta, en español y en inglés.\n\nUna herramienta de IA que, con el diccionario de variables de Apiges y las plantillas que ya existen, redacte cada plantilla nueva lista para pegar en el módulo de textos. Incluye la descripción de servicios que piden los clientes grandes al facturar, que también se hace con una plantilla de Word.\n\nAntes de empezar hace falta sentarse con Aitor una o dos veces para explicar qué es cada variable y cuáles usan, y revisar las plantillas que Apiges trae de serie. Lo pidió Aitor en la reunión del 1 de octubre y ya lo había comentado en la reunión inicial.",
+          "priority": ""
+        },
         {
           "id": "OYRM842YWnR5DwzcC1X1",
           "name": "M24 · Pautas y comprobación de los datos al dar de alta en Apiges",
@@ -21,12 +51,6 @@
           "id": "hUGlgJwIeGjbL0p6wAmN",
           "name": "M09 · Informe de viabilidad de marca con los criterios de las oficinas",
           "description": "Gemma prepara informes de viabilidad de marca aplicando los criterios y las directrices de las distintas oficinas. Una skill que conozca esos criterios y prepare el primer borrador del informe, que después ella revisa.\n\nPara empezar hacen falta los criterios y las directrices de las oficinas, con ejemplos. Ya se los pedimos en su sesión del 21 de septiembre y hay que recordárselo a través de Mario.",
-          "priority": ""
-        },
-        {
-          "id": "sCiS3cl6xorvXxpcDuHG",
-          "name": "M08 · Quitar los avisos automáticos de Apiges que no aplican",
-          "description": "Los avisos automáticos de Apiges generan tanto ruido que no se miran, y cada persona lleva sus plazos en su Outlook. Propuesta nuestra, a raíz de lo que contó Aitor: quitar los que no aplican, por ejemplo el de aportar el poder, para que los que quedan se lean.\n\nEs un llaverito. Hay que verlo en Apiges con Aitor.",
           "priority": ""
         },
         {
